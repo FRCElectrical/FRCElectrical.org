@@ -35,3 +35,4 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
 
 #### Series
 - Negative to Negative and Positive to Positive
+- Negative to Negative and Positive to Positive
