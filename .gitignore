@@ -1,0 +1,19 @@
+# Built site
+site/
+
+# UV leftovers
+.venv/
+__pycache__/
+*.py[cod]
+*$py.clas
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
