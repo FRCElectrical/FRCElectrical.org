@@ -324,6 +324,7 @@ toggle.name = "Switch to dark mode"
 [project.markdown_extensions.footnotes]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
+toc_depth = "2-6"  # Captures ## (H2), ### (H3), and #### (H4)
 permalink = true
 [project.markdown_extensions.pymdownx.arithmatex]
 generic = true
