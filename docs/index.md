@@ -1,4 +1,5 @@
 ---
+title: Welcome to FRCElectrical.org!
 icon: lucide/book
 ---
 

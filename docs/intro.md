@@ -1,5 +1,6 @@
 ---
 icon: lucide/zap
+title: Intro
 ---
 
 # Intro
