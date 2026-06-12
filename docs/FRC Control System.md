@@ -1,5 +1,6 @@
 ---
 title: FRC Control System
+icon: lucide/zap
 ---
 
 # The FRC Control System
