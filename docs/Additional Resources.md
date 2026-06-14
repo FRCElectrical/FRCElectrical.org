@@ -32,24 +32,5 @@ This page collects helpful links, guides, and external resources related to the 
 
 ## Commonly Ordered Parts
 
-Use this template to add images for commonly ordered parts. Place images in a repo `images/` folder and reference them relative to the docs file.
-
-Markdown example:
-
-```
-![Part Name](../images/part-image.jpg "Vendor — Part #")
-```
-
-HTML figure example with caption:
-
-<figure>
-	<img src="../images/part-image.jpg" alt="Part Name" />
-	<figcaption>Part Name — Vendor, Part #</figcaption>
-</figure>
-
-Recommended: store a small thumbnail (max width 800px) in `images/` and include vendor & part number in the caption.
-
-Example (requested format):
-
-![Commonly Ordered Parts](/docs/assets/commonly_ordered_parts.svg "Commonly Ordered Parts")
+![Commonly Ordered Parts](/docs/assets/commonlyorderedparts.jpg "Commonly Ordered Parts")
 
