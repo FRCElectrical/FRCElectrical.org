@@ -1,27 +1,73 @@
 ---
 icon: lucide/hammer
-title: Electrical Tools
+title: Electrical Tools & Crimps
 ---
 
 # Tools & Crimps
 
-## Wire Strippers
+## Ferrules
+### Ferrule Crimper
+=== "Budget Pick"
+    [IWISS HSC8 6-6 Wire Ferrule Crimping Tool](www.icrimptools.com/products/iwiss-hsc8-6-6-self-adjustable-crimping-tools-plier-for-awg23-10-bootlace-end-sleeves-ferrule-ratchet-wire-crimping-tool)
 
+    ![IWISS HSC8 6-6 Wire Ferrule Crimping Tool](assets/IWISSHSC86-6WireFerruleCrimpingTool.png){ align= center }
+=== "Quality Pick"
+    [Knipex 97 53 14](https://www.amazon.com/KNIPEX-97-53-14-Self-Adjusting/dp/B005EXP6Q6)
 
-## Ring Terminal
+    ![Knipex 97 53 14](assets/Knipex_97-53-14.png){ align=center }
+
+### Ferrule Crimps
+- todo
+
+<hr>
+
+## MolexSL
+### Molex Tool
+=== "DigiKey"
+    [Purchase Link](https://www.digikey.com/en/products/detail/molex/0638118700/1832243)
+
+    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+=== "Mouser"
+    [Purchase Link](https://www.mouser.com/ProductDetail/Molex/63811-8700?qs=kaOkW4VzSzcoF%2FkuYEQlmw%3D%3D)
+
+    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+=== "FIRST Choice"
+    Historically, the Molex tool has always been in FIRST Choice, for free (spending your credits).
+
+    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+
+### Molex Crimps
+| Part Type | Molex Part Number | Description | DigiKey Link | Mouser Link |
+| --------- | ----------------- | ----------- | ------------ | ----------- |  
+| Terminals (22-24AWG, 0.38um gold MIN) | 16-02-0103 | Female, Loose | [DigiKey](https://www.digikey.com/en/products/detail/molex/0016020103/115063) | [Mouser](https://www.mouser.com/ProductDetail/Molex/16-02-0103?qs=ej2heXsoscEtQBg0xGzF4Q%3D%3D) |
+| | 16-02-0115 | Male, Loose | [DigiKey](https://www.digikey.com/en/products/detail/molex/0016020115/171959) | [Mouser](https://www.mouser.com/ProductDetail/Molex/16-02-0115?qs=UAyrm%2FnZ%252BChKVUHstJTaLA%3D%3D) |
+| Housings (CPA/TPA capable) | 050-57-9702 | Receptacle (Female Terminal), 2 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0050579702/2421209) | [Mouser](https://www.mouser.com/ProductDetail/Molex/50-57-9702?qs=O7pb%252BE5gJ7RxVMEHNkkPqg%3D%3D) |
+| | 050-57-9703 | Receptacle (Female Terminal), 3 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0050579703/2731437) | [Mouser](https://www.mouser.com/ProductDetail/Molex/50-57-9703?qs=O7pb%252BE5gJ7ToCA9wCwmfmw%3D%3D) |
+| | 050-57-9704 | Receptacle (Female Terminal), 4 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0050579704/2731443) | [Mouser](https://www.mouser.com/ProductDetail/Molex/50-57-9704?qs=O7pb%252BE5gJ7QDyJl7w6xJZg%3D%3D) |
+| | 050-57-9706 | Receptacle (Female Terminal), 6 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0050579706/2731446) | [Mouser](https://www.mouser.com/ProductDetail/Molex/50-57-9706?qs=O7pb%252BE5gJ7Tc2Ca5UBEi0w%3D%3D) |
+| | 70107-5002 | Plug (Male Terminal), TPA, 2 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0701075002/5629362) | [Mouser](https://www.mouser.com/ProductDetail/Molex/70107-5002?qs=c8NFF48pVsDGyQiESfXyIw%3D%3D) |
+| | 70107-5003 | Plug (Male Terminal), TPA, 3 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0701075003/5629363) | [Mouser](https://www.mouser.com/ProductDetail/Molex/70107-5003?qs=c8NFF48pVsDnNiZNRhag%2FQ%3D%3D) |
+| | 70107-5004 | Plug (Male Terminal), TPA, 4 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0701075004/5629364) | [Mouser](https://www.mouser.com/ProductDetail/Molex/70107-5004?qs=c8NFF48pVsAiBF3Rm5aROg%3D%3D) | 
+| | 70107-5006 | Plug (Male Terminal), TPA, 6 Circuit | [DigiKey](https://www.digikey.com/en/products/detail/molex/0701075006/5629366) | [Mouser](https://www.mouser.com/ProductDetail/Molex/70107-5006?qs=c8NFF48pVsBUI4RLgGhycA%3D%3D) |
+| Inserts | 74109-0001 | CPA Insert | [DigiKey](https://www.digikey.com/en/products/detail/molex/0741090001/9351972) | [Mouser](https://www.mouser.com/ProductDetail/Molex/74109-0001?qs=sGAEpiMZZMvlX3nhDDO4AOuCP5L27%252B9mkeVyJh7TMOQ%3D) |
+| | 73838-0002 | TPA Insert, 2 Circuits | [DigiKey](https://www.digikey.com/en/products/detail/molex/0738380002/4134819) | [Mouser](https://www.mouser.com/ProductDetail/Molex/73838-0002?qs=O7pb%252BE5gJ7S%2FmdHSVMwzaw%3D%3D) |
+| | 73838-0003 | TPA Insert, 3 Circuits | [DigiKey](https://www.digikey.com/en/products/detail/molex/0738380003/3044678) | [Mouser](https://www.mouser.com/ProductDetail/Molex/73838-0003?qs=O7pb%252BE5gJ7ReqNV3gB1fuA%3D%3D) |
+| | 73838-0004 | TPA Insert, 4 Circuits | [DigiKey](https://www.digikey.com/en/products/detail/molex/0738380004/4134820) | [Mouser](https://www.mouser.com/ProductDetail/Molex/73838-0004?qs=O7pb%252BE5gJ7TxCOXFCM338Q%3D%3D) |
+| | 73838-0006 | TPA Insert, 6 Circuits | [DigiKey](https://www.digikey.com/en/products/detail/molex/0738380006/3468863?s=N4IgTCBcDaIAwHYDMAOVcMDYQF0C%2BQA) | [Mouser](https://www.mouser.com/ProductDetail/Molex/73838-0006?qs=O7pb%252BE5gJ7SNNrUqdbktmg%3D%3D) |
+
+<hr>
+
+## Ring Terminals
+!!! note
+
+    Ring terminals are only seen on the WCP Kraken X60 / X44, and the CTRE TalonFXS.
+
 ### Ring Terminal Crimper
 === "Budget Pick"
     content
 === "Quality Pick"
     more content
 
-## Ferrules
-### Ferrule Crimper
-=== "Budget Pick"
-    content
-=== "Quality Pick"
-    [Knipex 97 53 14](https://www.amazon.com/KNIPEX-97-53-14-Self-Adjusting/dp/B005EXP6Q6)
-    
-    ![erm](assets/Knipex_97-53-14.png){ align=center }
-## MolexSL
-- todo
+<hr>
+
+## Wire Strippers
