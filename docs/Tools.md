@@ -17,7 +17,22 @@ title: Electrical Tools & Crimps
     ![Knipex 97 53 14](assets/Knipex_97-53-14.png){ align=center }
 
 ### Ferrule Crimps
-- todo
+![Ferrule](/assets/Ferrule.png)
+
+| AWG Size | Pin Length | FerrulesDirect SKU | Description | FerrulesDirect Link |
+| -------- | ---------- | ------------------ | ----------- | ------------------- |
+| 8AWG | 12mm | AW100012 | Powering high current devices | [FerrulesDirect](www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw100012) |
+| 10AWG | 12mm | AW60012 | Powering high current devices | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw60012) |
+| 12AWG | 12mm | AW40012 | Anderson Powerpole connections | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw40012) |
+| 18AWG | 12mm | AW10012 | Powering low current devices  | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw10012) |
+| 18AWG | 8mm | AW10008 | Powering low current devices | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw10008) |
+| 22AWG | 12mm | AW05012 | Powering low current devices | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw05012) |
+| 22AWG | 8mm | AW05008 | Signal wire | [FerrulesDirect](https://www.ferrulesdirect.com/collections/insulated-wire-ferrules/products/aw05008) |
+
+!!! info
+
+    12mm Pin Length Ferrules are better for inserting a wire into Power Distribution (like a PDH, PDP, AMPD), and 8mm ferrules are better in weidmueller terminals.
+
 
 <hr>
 
@@ -37,6 +52,8 @@ title: Electrical Tools & Crimps
     ![Molex Tool](/assets/Molex_Tool.png){ align = center }
 
 ### Molex Crimps
+![Molex SL](/assets/Molex_SL.png)
+
 | Part Type | Molex Part Number | Description | DigiKey Link | Mouser Link |
 | --------- | ----------------- | ----------- | ------------ | ----------- |  
 | Terminals (22-24AWG, 0.38um gold MIN) | 16-02-0103 | Female, Loose | [DigiKey](https://www.digikey.com/en/products/detail/molex/0016020103/115063) | [Mouser](https://www.mouser.com/ProductDetail/Molex/16-02-0103?qs=ej2heXsoscEtQBg0xGzF4Q%3D%3D) |
