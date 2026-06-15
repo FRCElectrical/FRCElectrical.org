@@ -8,13 +8,13 @@ title: Electrical Tools & Crimps
 ## Ferrules
 ### Ferrule Crimper
 === "Budget Pick"
-    [IWISS HSC8 6-6 Wire Ferrule Crimping Tool](www.icrimptools.com/products/iwiss-hsc8-6-6-self-adjustable-crimping-tools-plier-for-awg23-10-bootlace-end-sleeves-ferrule-ratchet-wire-crimping-tool)
+    [iWiss Square Ferrule Crimper](https://wcproducts.com/products/iwiss-tools)
 
-    ![IWISS HSC8 6-6 Wire Ferrule Crimping Tool](assets/IWISSHSC86-6WireFerruleCrimpingTool.png){ align= center }
+    ![iWISS Square Ferrule Crimping Tool](assets/iWissSquareFerruleCrimper.png){ align= center }
 === "Quality Pick"
-    [Knipex 97 53 14](https://www.amazon.com/KNIPEX-97-53-14-Self-Adjusting/dp/B005EXP6Q6)
+    [Knipex 97 53 04](https://www.digikey.com/en/products/detail/knipex-tools-lp/97-53-04/10451678)
 
-    ![Knipex 97 53 14](assets/Knipex_97-53-14.png){ align=center }
+    ![Knipex 97 53 04](assets/Knipex_97-53-04.png){ align=center }
 
 ### Ferrule Crimps
 ![Ferrule](/assets/Ferrule.png)
