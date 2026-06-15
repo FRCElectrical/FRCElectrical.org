@@ -85,7 +85,9 @@ title: Electrical Tools & Crimps
 
     ![iWiss Non-Insulated Terminal Crimper (WCP-0916)](/assets/iWissNon-InsulatedTerminalCrimper(WCP-0916).png)
 === "Quality Pick"
-    more content
+    [Molex 0640030100](https://www.digikey.com/en/products/detail/molex/0640030100/592465)
+    
+    ![Molex 0640030100](/assets/Molex0640030100.png)
 
 ### Ring Terminal Crimps
 - todo
