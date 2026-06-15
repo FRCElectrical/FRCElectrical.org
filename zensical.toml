@@ -44,10 +44,16 @@ Copyright &copy; 2026 FRCElectrical.org
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  "index.md",
+  "intro.md",
+  "FRC Control System.md",
+  "Additional Resources.md",
+  {"misc stuff" = [
+    "misc stuff/ZensicalExamples.md",
+    "misc stuff/markdown.md"
+  ]} #always put at the end 
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -319,6 +325,7 @@ toggle.name = "Switch to dark mode"
 [project.markdown_extensions.footnotes]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
+toc_depth = "2-6"  # Captures ## (H2), ### (H3), and #### (H4)
 permalink = true
 [project.markdown_extensions.pymdownx.arithmatex]
 generic = true
