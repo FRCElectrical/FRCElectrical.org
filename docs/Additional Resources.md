@@ -32,5 +32,5 @@ This page collects helpful links, guides, and external resources related to the 
 
 ## Commonly Ordered Parts
 
-![Commonly Ordered Parts](/docs/assets/commonlyorderedparts.jpg "Commonly Ordered Parts")
+![Commonly Ordered Parts](assets/commonlyorderedparts.jpg "Commonly Ordered Parts")
 

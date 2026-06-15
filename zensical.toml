@@ -48,6 +48,7 @@ nav = [
   "index.md",
   "intro.md",
   "FRC Control System.md",
+  "Additional Resources.md",
   {"misc stuff" = [
     "misc stuff/ZensicalExamples.md",
     "misc stuff/markdown.md"
