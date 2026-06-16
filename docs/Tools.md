@@ -1,9 +1,9 @@
 ---
 icon: lucide/hammer
-title: Electrical Tools & Crimps
+title: Electrical Tools, Wire, and Crimps
 ---
 
-# Tools & Crimps
+# Tools, Wire, and Crimps
 
 ## Ferrules
 ### Ferrule Crimper
@@ -81,9 +81,9 @@ title: Electrical Tools & Crimps
 
 ### Ring Terminal Crimper
 === "Budget Pick"
-    [iWiss Non-Insulated Terminal Crimper (WCP-0916)](https://wcproducts.com/products/iwiss-tools)
+    [iCrimp IWS-16 (22awg-6awg)](https://www.amazon.com/dp/B07QXNF8XW?rsd=GICVhQ9MOzh99rXecptowWPtPRL93kVbiwEww%2BN3F5zzPfyfw2QAMMx9jqzCu45nUOdVP6REhwjzwhUQbvUFSqGalcKnDzrKxf1l4TN6gmZ4nQ%2Bh&edk=AQIDAHi1lw%2FM8UbbSMD9ScOOFEmBMHMthHeEhqDaQYPJUAX3jQFxu1b1PptRTX%2FvCtqyC6HwAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMZRV6P4Us%2By8rbUsmAgEQgDt34rkfZifgSptsD8W2zDNHw2YK8qAyIdvZ3M%2F%2BKRMMTPm0Po5xZSERHVM4ckfJ4bnSRVnSiUOJ%2FWrRMA%3D%3D)
 
-    ![iWiss Non-Insulated Terminal Crimper (WCP-0916)](/assets/iWissNon-InsulatedTerminalCrimper(WCP-0916).png)
+    ![iCrimp IWS-16 (22awg-6awg)](/assets/iWissNon-InsulatedTerminalCrimper(WCP-0916).png)
 === "Quality Pick"
     [Molex 0640030100](https://www.digikey.com/en/products/detail/molex/0640030100/592465)
     
