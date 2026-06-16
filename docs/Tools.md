@@ -102,7 +102,9 @@ title: Electrical Tools, Wire, and Crimps
 ## Wire Strippers
 ### Battery
 === "Budget Pick"
-    erm
+    [Jonard Tools CST-1900](https://www.amazon.com/gp/product/B0069627PA?linkId=0b213ec3eef054b7c26d5fc4e0522e33&language=en_US)
+
+    ![Jonard Tools CST-1900](/assets/Tools/Jonard_CST-1900.png)
 === "Quality Pick"
     [Knipex 16 30 135](https://www.digikey.com/en/products/detail/knipex-tools-lp/16-30-135-SB/10451750)
 
