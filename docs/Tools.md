@@ -10,11 +10,11 @@ title: Electrical Tools, Wire, and Crimps
 === "Budget Pick"
     [iWiss Square Ferrule Crimper](https://wcproducts.com/products/iwiss-tools)
 
-    ![iWISS Square Ferrule Crimping Tool](assets/iWissSquareFerruleCrimper.png){ align= center }
+    ![iWISS Square Ferrule Crimping Tool](assets/Tools/iWissSquareFerruleCrimper.png){ align= center }
 === "Quality Pick"
     [Knipex 97 53 04](https://www.digikey.com/en/products/detail/knipex-tools-lp/97-53-04/10451678)
 
-    ![Knipex 97 53 04](assets/Knipex_97-53-04.png){ align=center }
+    ![Knipex 97 53 04](assets/Tools/Knipex_97-53-04.png){ align=center }
 
 ### Ferrule Crimps
 ![Ferrule](/assets/Ferrule.png)
@@ -41,18 +41,18 @@ title: Electrical Tools, Wire, and Crimps
 === "DigiKey"
     [Purchase Link](https://www.digikey.com/en/products/detail/molex/0638118700/1832243)
 
-    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+    ![Molex Tool](/assets/Tools/Molex_Tool.png){ align = center }
 === "Mouser"
     [Purchase Link](https://www.mouser.com/ProductDetail/Molex/63811-8700?qs=kaOkW4VzSzcoF%2FkuYEQlmw%3D%3D)
 
-    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+    ![Molex Tool](/assets/Tools/Molex_Tool.png){ align = center }
 === "FIRST Choice"
     Historically, the Molex tool has always been in FIRST Choice, for free (spending your credits).
 
-    ![Molex Tool](/assets/Molex_Tool.png){ align = center }
+    ![Molex Tool](/assets/Tools/Molex_Tool.png){ align = center }
 
 ### Molex Crimps
-![Molex SL](/assets/Molex_SL.png)
+![Molex SL](/assets/Tools/Molex_SL.png)
 
 | Part Type | Molex Part Number | Description | DigiKey Link | Mouser Link |
 | --------- | ----------------- | ----------- | ------------ | ----------- |  
@@ -83,15 +83,39 @@ title: Electrical Tools, Wire, and Crimps
 === "Budget Pick"
     [iCrimp IWS-16 (22awg-6awg)](https://www.amazon.com/dp/B07QXNF8XW?rsd=GICVhQ9MOzh99rXecptowWPtPRL93kVbiwEww%2BN3F5zzPfyfw2QAMMx9jqzCu45nUOdVP6REhwjzwhUQbvUFSqGalcKnDzrKxf1l4TN6gmZ4nQ%2Bh&edk=AQIDAHi1lw%2FM8UbbSMD9ScOOFEmBMHMthHeEhqDaQYPJUAX3jQFxu1b1PptRTX%2FvCtqyC6HwAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMZRV6P4Us%2By8rbUsmAgEQgDt34rkfZifgSptsD8W2zDNHw2YK8qAyIdvZ3M%2F%2BKRMMTPm0Po5xZSERHVM4ckfJ4bnSRVnSiUOJ%2FWrRMA%3D%3D)
 
-    ![iCrimp IWS-16 (22awg-6awg)](/assets/iWissNon-InsulatedTerminalCrimper(WCP-0916).png)
+    ![iCrimp IWS-16 (22awg-6awg)](/assets/Tools/iWissNon-InsulatedTerminalCrimper(WCP-0916).png)
 === "Quality Pick"
     [Molex 0640030100](https://www.digikey.com/en/products/detail/molex/0640030100/592465)
     
-    ![Molex 0640030100](/assets/Molex0640030100.png)
+    ![Molex 0640030100](/assets/Tools/Molex0640030100.png)
 
 ### Ring Terminal Crimps
-- todo
+![Ring Terminal](/assets/Tools/RingTerminal.png)
+
+| Part Type | Part Number | Description | CTRE Link | Other Link |
+| --------- | ----------- | ----------- | --------- | ---------- |
+| 10AWG | CTRE: 23-108284 | Ring Terminal for Kraken / TalonFXS Power | [CTRE](https://store.ctr-electronics.com/products/ring-terminal-connector-pack-of-10?variant=43631142174893) | [DigiKey](https://www.digikey.com/en/products/detail/molex/0190690232/2421411) |
+| 22AWG | CTRE: 23-228284 | Ring Terminal for Kraken / TalonFXS CAN | [CTRE](https://store.ctr-electronics.com/products/ring-terminal-connector-pack-of-10?variant=43631142142125) | na | 
 
 <hr>
 
 ## Wire Strippers
+### Battery
+=== "Budget Pick"
+    erm
+=== "Quality Pick"
+    [Knipex 16 30 135](https://www.digikey.com/en/products/detail/knipex-tools-lp/16-30-135-SB/10451750)
+
+    ![Knipex 16 30 135](/assets/Tools/Knipex_16-30-135.png)
+
+### Non-Battery
+=== "Budget Pick"
+    [Knipex 12 62 180](https://www.digikey.com/en/products/detail/knipex-tools-lp/12-62-180/10451692)
+
+    ![Knipex 12 62 180](/assets/Tools/Knipex_12-62-180.png)
+=== "Quality Pick"
+    [AutomationDirect DN-WS](https://www.automationdirect.com/adc/shopping/catalog/tools_-a-_test_equipment/pliers_-a-_cutting_tools/wire_-a-_cable_stripping_tools/dn-ws)
+
+    ![AutomationDirect DN-WS](/assets/Tools/AutomationDirect_DN-WS.png)
+
+<hr>
