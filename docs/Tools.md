@@ -17,7 +17,7 @@ title: Electrical Tools, Wire, and Crimps
     ![Knipex 97 53 04](assets/Tools/Knipex_97-53-04.png){ align=center }
 
 ### Ferrule Crimps
-![Ferrule](/assets/Ferrule.png)
+![Ferrule](/assets/Tools/Ferrule.png)
 
 | AWG Size | Pin Length | FerrulesDirect SKU | Description | FerrulesDirect Link |
 | -------- | ---------- | ------------------ | ----------- | ------------------- |
