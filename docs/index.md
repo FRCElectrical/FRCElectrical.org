@@ -1,31 +1,84 @@
 ---
-icon: lucide/book
+icon: lucide/zap
+title: Welcome to FRCElectrical.org (beta)
+hide:
+  - navigation
+  - toc
 ---
 
-# Welcome to FRCElectrical.org!
+<div class="grid" markdown>
 
-Welcome to FRCelectrical.org. This is a tool to learn all about electrical as it relates to FRC. In FRC, we have something called the control system, and without it, the robot would essentially be a giant paperweight. Our job is to make sure everything is wired properly- that every component receives power and communication with a low rate of failure. We need to make sure the entire system is bulletproof, as FRC is a harsh environment for electronics with high collisions and vibration. This website teaches almost everything that one needs to know from 0 to 100. 
+<div markdown>
+# Welcome to FRCElectrical.org
+The comprehensive learning guide and technical reference for FRC Elecrical.
 
-# Contributors
-
-<div class="grid cards" markdown>
--   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNpcmNsZS11c2VyLWljb24gbHVjaWRlLWNpcmNsZS11c2VyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48cGF0aCBkPSJNNyAyMC42NjJWMTlhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2MS42NjIiLz48L3N2Zz4=" width="75" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **Arnan**
-    
-    ---
-    Student of 5667 The Digital Eagles
+[Start Learning](){ .md-button .md-button--primary }
 </div>
 
-<div class="grid cards" markdown>
--   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNpcmNsZS11c2VyLWljb24gbHVjaWRlLWNpcmNsZS11c2VyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48cGF0aCBkPSJNNyAyMC42NjJWMTlhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2MS42NjIiLz48L3N2Zz4=" width="75" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **Mukesh**
-    
-    ---
-    Student of 3506 YETI Robotics
+<div markdown>
+<span style="color: var(--md-typeset-color); font-size: 100px;">
+    :lucide-zap:
+</span>
 </div>
 
+</div>
+
+<style>
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid.cards li {
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .grid.cards li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .grid.cards li a.stretched-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .grid.cards li a.stretched-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--md-primary-fg-color);
+  }
+</style>
+
+
 <div class="grid cards" markdown>
--   <img src="https://github.com/witherslayer67.png" width="75" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **[Jimmy M](https://github.com/witherslayer67)**
-    
-    ---
-    Key Volunteer, Alumni, and Controls Mentor of 9496 LYNK. 
+
+-   :lucide-play:{ style="color: #ffffff;" } **Getting Started**
+    <br>
+    Everything you need to know to get started with electrical.
+    [→](intro.md){ .stretched-link }
+
+-   :lucide-book-open:{ style="color: #ffffff;" } **Intro to the FRC Control System**
+    <br>
+    Goes over the basics of the FRC Control System.
+    [→](){ .stretched-link }
+
+-   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
+    <br>
+    Explains the best tools, and what crimps to buy for FRC!
+    [→](){ .stretched-link }
+
+-   :lucide-wrench:{ style="color: #ffffff;" } **Contribution**
+    <br>
+    Help contribute! Since FRCElectrical.org is in an early stage, we need you.
+    [→](Contribution.md){ .stretched-link }
+
 </div>
 
