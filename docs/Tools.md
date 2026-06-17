@@ -121,3 +121,31 @@ title: Electrical Tools, Wire, and Crimps
     ![AutomationDirect DN-WS](/assets/Tools/AutomationDirect_DN-WS.png)
 
 <hr>
+
+## Wire
+
+### Power
+| AWG | Brand | Link | 
+| --- | ----- | ---- |
+| 10AWG | BNTECHGO | [BNTECHGO](https://www.amazon.com/BNTECHGO-Flexible-Conductor-Resistant-Extension/dp/B086KXW46L) |
+| | West Coast Products | [WCP](https://wcproducts.com/products/wire) |
+| | The Thrifty Bot | [TTB](https://www.thethriftybot.com/products/25-feet-bonded-10-awg-flexible-silicone-jacketed-wire) |
+| 12AWG | BNTECHGO | [BNTECHGO](https://www.amazon.com/BNTECHGO-Flexible-Conductor-Resistant-Extension/dp/B07CZYT6RG) |
+| | West Coast Products | [WCP](https://wcproducts.com/products/wire) |
+| | The Thrifty Bot | [TTB](https://www.thethriftybot.com/products/50-feet-bonded-12-awg-flexible-silicone-jacketed-wire) |
+| 18AWG | BNTECHGO | [BNTECHGO](https://www.amazon.com/BNTECHGO-Flexible-Conductor-Resistant-Extension/dp/B0779QRR58) |
+| | West Coast Products | [WCP](https://wcproducts.com/products/wire)
+| | The Thrifty Bot | [TTB](https://www.thethriftybot.com/products/25-feet-bonded-18-awg-flexible-silicone-jacketed-wire) |
+| 22AWG | BNTECHGO | [BNTECHGO](https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B01K4RPF1C) |
+| | West Coast Products | [WCP](https://wcproducts.com/products/wire) |
+
+### CAN
+| Brand | Description | Link |
+| ----- | ----------- | ---- | 
+| West Coast Products | Twisted CAN Wire | [WCP](https://wcproducts.com/products/wire) |
+| | Jacket CAN Wire (Comes in Black, White, Grey) | [WCP](https://wcproducts.com/products/wire) |
+| Cross The Road Electronics | Twisted CAN Wire | [CTRE](https://store.ctr-electronics.com/products/can-bus-cable?variant=43631131656365) |
+| Automation Direct | Continous Flex CAN Wire | [Automation Direct](https://www.automationdirect.com/adc/shopping/catalog/bulk_wire_-a-_cable/low_voltage_control_-a-_signal_cable/cf211-02-01-02-1) |
+
+!!! info
+    Continous Flex CAN Wire is useful in mechanisms that move a lot (like a turret, elevator, etc).

@@ -68,12 +68,12 @@ The comprehensive learning guide and technical reference for FRC Elecrical.
 -   :lucide-book-open:{ style="color: #ffffff;" } **Intro to the FRC Control System**
     <br>
     Goes over the basics of the FRC Control System.
-    [→](){ .stretched-link }
+    [→](./FRC%20Control%20System.md){ .stretched-link }
 
 -   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
-    [→](){ .stretched-link }
+    [→](./Tools.md){ .stretched-link }
 
 -   :lucide-wrench:{ style="color: #ffffff;" } **Contribution**
     <br>
