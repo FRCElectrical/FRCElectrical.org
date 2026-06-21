@@ -12,7 +12,7 @@ hide:
 # Welcome to FRCElectrical.org
 The comprehensive learning guide and technical reference for FRC Elecrical.
 
-[Start Learning](){ .md-button .md-button--primary }
+[Start Learning](intro.md){ .md-button .md-button--primary }
 </div>
 
 <div markdown>
