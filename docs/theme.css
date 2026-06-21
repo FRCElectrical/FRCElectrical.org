@@ -1,0 +1,69 @@
+/* Theme: Blue accent (#4272f5) with light/dark support */
+:root {
+  --accent: #4272f5;
+  --accent-foreground-light: #ffffff; /* for use on accent backgrounds */
+  --page-bg: #ffffff;
+  --page-text: #041014;
+  --muted: rgba(4,16,20,0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg: #071011;
+    --page-text: #e6ffff;
+    --accent-foreground-light: #ffffff; /* keep white on dark mode for contrast */
+  }
+}
+
+/* Links and interactive elements */
+a, a:visited {
+  color: var(--accent);
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* Header / nav subtle tint */
+.header, .site-header, .nav, .sidebar, .md-nav {
+  background-color: rgba(66,114,245,0.06);
+}
+
+/* Buttons and primary controls */
+button, .btn, .button, .md-button {
+  background-color: var(--accent) !important;
+  color: var(--accent-foreground-light) !important;
+  border: none !important;
+}
+
+button:hover, .btn:hover, .button:hover {
+  opacity: 0.95;
+}
+
+/* Code blocks, borders and accents */
+pre, code, .highlight, .card {
+  border-color: rgba(66,114,245,0.12);
+}
+
+/* Ensure readable text colors */
+body, .content, .md-content {
+  background-color: var(--page-bg) !important;
+  color: var(--page-text) !important;
+}
+
+/* Small muted text */
+small, .muted, .meta {
+  color: var(--muted) !important;
+}
+
+/* Improve contrast for headings when accent is used as background */
+.header .site-name, .brand, .logo {
+  color: var(--page-text) !important;
+}
+
+/* Utility: accent background */
+.accent-bg {
+  background-color: var(--accent);
+  color: var(--accent-foreground-light);
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
