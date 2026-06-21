@@ -6,19 +6,19 @@ hide:
   - toc
 ---
 
-<div class="grid" markdown>
+<div class="hero-container" markdown>
 
-<div markdown>
+<div class="hero-content" markdown>
 # Welcome to FRCElectrical.org
-The comprehensive learning guide and technical reference for FRC Elecrical.
 
-[Start Learning](intro.md){ .md-button .md-button--primary }
+The comprehensive learning guide and technical reference for FRC Electrical.
+
+[Start Learning](intro.md){ .md-button .md-button--primary hero-cta }
+
 </div>
 
-<div markdown>
-<span style="color: var(--md-typeset-color); font-size: 100px;">
-    :lucide-zap:
-</span>
+<div class="hero-graphic" markdown>
+<span class="hero-icon" aria-hidden="true">:lucide-zap:</span>
 </div>
 
 </div>

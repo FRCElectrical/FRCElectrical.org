@@ -23,6 +23,63 @@
   }
 }
 
+  /* Typographic scale and stronger blue highlights */
+  html { font-size: 16px; }
+  body { font-size: 1.125rem; line-height: 1.5; }
+  h1 { font-size: 2.5rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.75rem; }
+  p { font-size: 1.125rem; }
+
+  /* Hero section styling */
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3.5rem 2rem;
+    background: linear-gradient(180deg, rgba(66,114,245,0.04), rgba(66,114,245,0.01));
+    border-radius: 12px;
+    margin-bottom: 1.75rem;
+  }
+
+  .hero-content {
+    max-width: 720px;
+  }
+
+  .hero-title { font-size: 3rem; margin: 0 0 0.5rem 0; }
+  .hero-sub { font-size: 1.25rem; margin-bottom: 1rem; color: rgba(4,16,20,0.75); }
+
+  .hero-icon {
+    display: inline-block;
+    font-size: 240px;
+    line-height: 1;
+    color: var(--accent);
+    filter: drop-shadow(0 12px 30px rgba(66,114,245,0.28));
+  }
+
+  .hero-graphic { display: flex; align-items: center; justify-content: center; }
+
+  /* CTA styling specifically for hero */
+  .hero-cta {
+    font-size: 1.05rem;
+    padding: 0.75rem 1.15rem;
+    border-radius: 8px;
+  }
+
+  /* Make blue highlights more apparent in cards and links */
+  .grid.cards li {
+    background: linear-gradient(180deg, rgba(66,114,245,0.02), rgba(66,114,245,0.00));
+    border: 1px solid rgba(66,114,245,0.06);
+  }
+
+  .grid.cards li a.stretched-link { color: var(--accent); }
+
+  /* Improve visibility of headings and accents */
+  h1, h2, h3 { color: var(--page-text); }
+
+  .md-nav__link--active, .md-nav__link--active:hover { background-color: var(--accent) !important; color: var(--accent-foreground-light) !important; }
+
+
 /* Global page background and text */
 body, .content, .md-content {
   background: linear-gradient(180deg, var(--page-bg) 0%, rgba(255,255,255,0) 100%);
