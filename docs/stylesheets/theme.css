@@ -178,6 +178,27 @@ h3 {
 
 .discord-cta:hover { filter: brightness(1.05); transform: translateY(-1px); }
 
+/* Float GitHub and Discord CTAs in the site header area (fixed top-right)
+   and hide their copies inside the hero so they visually appear in the header. */
+.github-cta, .discord-cta {
+  position: fixed !important;
+  top: 14px !important;
+  z-index: 9999 !important;
+}
+.discord-cta { right: 12px !important; }
+.github-cta { right: 72px !important; }
+
+/* Hide hero copies (they remain in DOM but are visually moved to header) */
+.hero-content .github-cta, .hero-content .discord-cta {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .github-cta, .discord-cta { position: fixed !important; top: 10px !important; }
+  .github-cta { right: 88px !important; }
+  .discord-cta { right: 12px !important; }
+}
+
 /* Cards and panels */
 .card, .panel, .md-card {
   background-color: var(--card-bg);
