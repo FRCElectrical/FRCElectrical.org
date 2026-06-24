@@ -47,6 +47,7 @@ Copyright &copy; 2026 FRCElectrical.org
 nav = [
   "index.md",
   "intro.md",
+  "FRC Control System.md",
   {"misc stuff" = [
     "misc stuff/ZensicalExamples.md",
     "misc stuff/markdown.md"
