@@ -1,3 +1,8 @@
+---
+icon: lucide/zap
+title: Contribution
+---
+
 # FRC Control System
 
 ## Control System Basics
