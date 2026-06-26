@@ -1,6 +1,6 @@
 ---
 icon: lucide/zap
-title: Contribution
+title: FRC Control System
 ---
 
 # FRC Control System
