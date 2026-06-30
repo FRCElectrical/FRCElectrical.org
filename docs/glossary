@@ -1,0 +1,31 @@
+---
+icon: lucide/zap
+title: Contribution
+---
+
+# Glossary
+Some of the phrases you may need recap on!
+
+CAN: "Control Area Network"; A communication method used by devices in a chain. Usually 22 gauge, twisted yellow/green wire, and must be closed by a 120 ohm resistor
+
+PDH: Power Distribution Hub; Rev hardware that regulates power to different components, such as motors, using Breakers and smaller components with fuses.
+
+PDP: Power Distribution Panel; CTRE hardware that regulates power to different components. More slots and uses breakers.
+
+Robo Rio: Previous main robot controller
+
+Systemcore: Current main robot controller
+
+Voltage: The potential difference in charge between two points
+
+Amperes (Amps): The unit used to measure electric current
+
+Ohms (Resistance), 𝝮: A measure of the opposition to current flow in an electrical circuit
+
+CAN Chain: Also known as the CANbus, this refers to the connection of all devices in the chain via CAN.
+
+Multimeter: Tool to test electronic specificities such as voltage, current, resistance.
+
+RSL: Robot signal light; Used to indicate the status of the robot
+
+Crimper: Tool used to process and complete crimps on wires. Anderson crimpers are responsible for crimping Anderson crimps, etc.
