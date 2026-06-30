@@ -58,8 +58,9 @@ What you need to do to make sure your battery remains competitive!
   * Multiple test graphs of the same battery, or multiple batteries, may be compared or overlaid.
 
 ### Best Practices
-* Always write down when the battery is first used: You can use the AndyMark stickers that come with the kit or just use a sharpie and some tape. Label month and year.
-* Have a set circulation of batteries at competition. Regulate based on the performance of each battery.
+!!! tip "Best Battery Practices"
+  * Always write down when the battery is first used: You can use the AndyMark stickers that come with the kit or just use a sharpie and some tape. Label month and year.
+  * Have a set circulation of batteries at competition. Regulate based on the performance of each battery.
 
 
 

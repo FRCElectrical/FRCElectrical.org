@@ -20,7 +20,8 @@ This page covers everything needed for you to make successful connections in the
 
 ## Solder
 * Solder connections, as opposed to crimped connections, are sometimes weaker and less reliable. 
-* They are HEAVILY discouraged for teams, and especially newer teams. The reason that teams usually go this route is that they’re seen as equivalent to a continuous run. In fact, soldering is a failure point on the bot, and like connectors, it needs to be properly strain relieved. 
+!!! warning
+  * They are HEAVILY discouraged for teams, and especially newer teams. The reason that teams usually go this route is that they’re seen as equivalent to a continuous run. In fact, soldering is a failure point on the bot, and like connectors, it needs to be properly strain relieved. 
 * Soldering is relatively easy once it's learned, but there is a learning curve, as well as more room for error than crimped connectors. Additionally, in an FRC environment it’s fast paced. 
 * If something breaks or needs to be replaced it’s extremely challenging.
 

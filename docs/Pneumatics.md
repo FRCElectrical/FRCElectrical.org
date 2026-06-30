@@ -7,7 +7,9 @@ title: Contribution
 
 The Pneumatic System works to deliver quick, typically linear, movements using compressed air. While not used in Modern FRC, they are important to learn properly!
 
-They can be **very** dangerous: [IRI 2022 Incident](https://clips.twitch.tv/QuaintAcceptableWormDancingBaby-qqE-DulX9UcVpgSX?tt_content=url&tt_medium=clips_api)
+
+!!! danger "They can be **very** dangerous"
+  [IRI 2022 Incident](https://clips.twitch.tv/QuaintAcceptableWormDancingBaby-qqE-DulX9UcVpgSX?tt_content=url&tt_medium=clips_api)
 
 This is the general FRC Pneumatics Layout you need to learn:
 ![FRC Pneumatics System](assets/FRC%20Pneumatics%20Layout.png)
