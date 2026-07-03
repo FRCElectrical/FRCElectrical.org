@@ -36,6 +36,30 @@ title: Contribution
 * Step 4 (FOR LUGS): For lugs, perform the steps described in [Battery Assembly](link), and then, being careful to not allow any metal (including the metal already on the battery) to be exposed, move forward and heat up the heat shrink.
 * Step 4 (FOR CONNECTORS): once both wires are done, place them into the connector, with red as positive and black as negative. The hook should go over the metal bit at the end and a click should be heard. To undo, use a flathead screwdriver to pry the hook over the metal bit.
 
+## Battery Process Flowchart
+The following flowchart summarizes the typical battery workflow from selection through assembly, charging, and checks.
+
+``` mermaid
+flowchart TD
+    A[Start with a battery] --> B{Battery selected?}
+    B -->|No| C[Choose a compliant SLA battery]
+    C --> D[Inspect terminals and case]
+    B -->|Yes| D
+    D --> E[Prepare wire and connector]
+    E --> F[Crimp lug or terminal]
+    F --> G[Secure with washers and hardware]
+    G --> H[Apply heat shrink or insulation]
+    H --> I[Connect positive and negative correctly]
+    I --> J[Test connection and polarity]
+    J --> K[Install on the robot or store safely]
+    K --> L{Needs charging?}
+    L -->|Yes| M[Charge with an approved charger]
+    M --> N[Check voltage and internal resistance]
+    L -->|No| N
+    N --> O[Use battery or rotate it into the battery cycle]
+    O --> P[End]
+```
+
 ## Maintaining Your Battery
 What you need to do to make sure your battery remains competitive!
 
