@@ -27,6 +27,8 @@ title: Contribution
 
 ## How to contribute
 
+```text
 1. Fork the repository.
 2. Create a branch for your changes, and make them.
 3. Open a pull request with a clear description.
+```

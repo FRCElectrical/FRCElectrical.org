@@ -35,29 +35,57 @@ title: FRC Control System
       * [CIM Motors](https://andymark.com/products/2-5-in-cim-motor?srsltid=AfmBOorBBClaISFHUpTn6bFgXE1w_2Pfd6TXEb68cYwynubycuwPgYn_) are the only brushed motors seen on this list. They are the motors FIRST uses on their fields and the motors that come with the kitbot. Similar to NEOs, they are controlled with External motor controllers.
 
 ### Motor Controllers
-* Talon FX 
-  * This is the controller that is integrated into the Kraken’s (Both X60 and X44). Talon FX acts as an integrated motor controller, meaning that an external controller that is separately wired is not needed. For Kraken X60/X44s, wiring is relatively simple because the controller is integrated in the motor itself. CAN and Power directly stem from the motor and can be connected to their appropriate locations. Power is being distributed to the Distribution Panel/Hub and CAN to the rest of the bus.
-* [SparkMAX](https://www.revrobotics.com/rev-11-2158/) (Best motor controller for price)
-  * This is a controller optimized for the Neo brand and works for brushed and brushless motors.
-* [Spark Flex](https://www.revrobotics.com/rev-11-2159/)
-  * This is a motor controller made for integration with the NEO Vortex. 
-* [TTB's Nova](https://www.thethriftybot.com/products/thrifty-nova)
-  * TTB’s motor controller
-* [Talon FXS](https://store.ctr-electronics.com/products/talon-fxs?srsltid=AfmBOoqrDtivYz01ZhMZN83ueCLV9vtFR7v5zd-r1RJh8Oi5vd6bPA7f)
-  * Optimized for CTRE’s Minion motor, this is CTRE’s motor controller, the Talon FXS. It allows for CAN FD capabilities. 
+These are the devices that control the motors and help direct power and signals to each mechanism.
+
+=== "Talon FX"
+
+    * This is the controller that is integrated into the Kraken’s (both X60 and X44). Talon FX acts as an integrated motor controller, meaning that an external controller that is separately wired is not needed.
+    * For Kraken X60/X44s, wiring is relatively simple because the controller is integrated in the motor itself. CAN and power directly stem from the motor and can be connected to their appropriate locations.
+
+=== "SparkMAX"
+
+    * [SparkMAX](https://www.revrobotics.com/rev-11-2158/) is often considered the best motor controller for price.
+    * This is a controller optimized for the NEO brand and works for brushed and brushless motors.
+
+=== "Spark Flex"
+
+    * [Spark Flex](https://www.revrobotics.com/rev-11-2159/) is a motor controller made for integration with the NEO Vortex.
+
+=== "TTB's Nova"
+
+    * [TTB's Nova](https://www.thethriftybot.com/products/thrifty-nova) is Thrifty Bot’s motor controller option.
+
+=== "Talon FXS"
+
+    * [Talon FXS](https://store.ctr-electronics.com/products/talon-fxs?srsltid=AfmBOoqrDtivYz01ZhMZN83ueCLV9vtFR7v5zd-r1RJh8Oi5vd6bPA7f) is optimized for CTRE’s Minion motor and supports CAN FD capabilities.
 
 ### Gyroscopes
-* These allow for the positional accuracy of your robot, as shown on logs. This is important for the autonomous period of your robot in the match, as well as automatic positioning.
-* [Pigeon 2.0](https://store.ctr-electronics.com/products/pigeon-2?srsltid=AfmBOopKkbE8euQjLvXkKVGa2Yv38bQL54rZIp9qeEz6EtwOsxAoNflI) (best quality)
-  * CTRE’s gyroscope
-* [CANandGyro](https://shop.reduxrobotics.com/products/boron-canandgyro) (Best Gyro for Price)
-  * Redux’s gyroscope
+These allow for the positional accuracy of your robot, as shown on logs. This is important for the autonomous period of your robot in the match, as well as automatic positioning.
+
+=== "Pigeon 2.0"
+
+    * [Pigeon 2.0](https://store.ctr-electronics.com/products/pigeon-2?srsltid=AfmBOopKkbE8euQjLvXkKVGa2Yv38bQL54rZIp9qeEz6EtwOsxAoNflI) is often considered the best quality option.
+    * CTRE’s gyroscope.
+
+=== "CANandGyro"
+
+    * [CANandGyro](https://shop.reduxrobotics.com/products/boron-canandgyro) is a strong price-focused choice.
+    * Redux’s gyroscope.
 
 ### Power Distribution
-* Power distribution boards are how power gets around the robot. They can range from complex circuits to simple copper blocks.
-  * [PDH](https://www.revrobotics.com/rev-11-1850/) (Best quality)
-  * [PDP](https://store.ctr-electronics.com/products/power-distribution-panel?srsltid=AfmBOopoSK1Di0TRjaJsVxDZllI60QdiBW1o38FV_IUtqpSCJSKLoa_b) (Best price)
-  * [AndyMark Power Distribution](https://andymark.com/products/ampd-andymark-power-distribution?srsltid=AfmBOopdgvZPfxxJGLdfxQgPt86E32aLuTbFDHg2agWxzwtasnfxGd3m)
+Power distribution boards are how power gets around the robot. They can range from complex circuits to simple copper blocks.
+
+=== "PDH"
+
+    * [PDH](https://www.revrobotics.com/rev-11-1850/) is often considered the best quality option for teams that want a robust and modern distribution board.
+
+=== "PDP"
+
+    * [PDP](https://store.ctr-electronics.com/products/power-distribution-panel?srsltid=AfmBOopoSK1Di0TRjaJsVxDZllI60QdiBW1o38FV_IUtqpSCJSKLoa_b) is a strong budget-friendly choice for teams looking for a reliable lower-cost option.
+
+=== "AndyMark Power Distribution"
+
+    * [AndyMark Power Distribution](https://andymark.com/products/ampd-andymark-power-distribution?srsltid=AfmBOopdgvZPfxxJGLdfxQgPt86E32aLuTbFDHg2agWxzwtasnfxGd3m) is another common choice that works well for many FRC teams.
 
 ### Fuses and Breakers
 * Breakers and fuses are what gets stuck into the power distribution boards so that your precious and expensive electronics don’t break from a potential voltage overload. They are meant to break the electrical connection after too much electricity is supplied, and thereby saving electronics from undergoing that hit. Fuses are sacrificial and always a one time use while breakers are able to be reused in cases, though they can be popped and be rendered unusable.
@@ -85,16 +113,35 @@ title: FRC Control System
 * [Alpha Testing](https://community.firstinspires.org/systemcore-alpha-testing-first-wave)
 
 ### Smaller Power Distribution
-* These are like the Power distribution boards, but they are used for electronics that may need smaller voltage. They would be used when you don’t have enough spots on your main distribution board.
-* [REV Mini Power Module](https://www.revrobotics.com/rev-11-1956/)
-* [Voltage Regulator Module](https://store.ctr-electronics.com/products/voltage-regulator-module?srsltid=AfmBOoqSvxCWOi-S_hmZN64-mYdpfNRXR3D-_3f4hC0ErgdFZawhhgSz)
+These are like the power distribution boards, but they are used for electronics that may need smaller voltage. They would be used when you don’t have enough spots on your main distribution board.
+
+=== "REV Mini Power Module"
+
+    * [REV Mini Power Module](https://www.revrobotics.com/rev-11-1956/) is commonly used to provide regulated power to smaller electronics and sensors.
+
+=== "Voltage Regulator Module"
+
+    * [Voltage Regulator Module](https://store.ctr-electronics.com/products/voltage-regulator-module?srsltid=AfmBOoqSvxCWOi-S_hmZN64-mYdpfNRXR3D-_3f4hC0ErgdFZawhhgSz) is used when a stable lower voltage supply is needed for supporting electronics.
 
 ### Cameras
-* These are for vision processing. They’re important in both autonomous and tele-operated periods of your robot.
-* Arducams
-* [LumaP1](https://luma.vision/products/p1)
-* [ThriftyCam](https://www.thethriftybot.com/products/thriftycam) - Price Choice
-* [Limelight](https://limelightvision.io/products/limelight-4) - Quality Choice
+These are for vision processing. They’re important in both autonomous and tele-operated periods of your robot.
+
+=== "Arducam"
+
+    * A compact camera option commonly used for custom vision setups.
+    * Good for teams looking for flexibility and a lower-cost entry point.
+
+=== "LumaP1"
+
+    * [LumaP1](https://luma.vision/products/p1) is a strong option for teams wanting a modern camera with solid image quality.
+
+=== "ThriftyCam"
+
+    * [ThriftyCam](https://www.thethriftybot.com/products/thriftycam) is a budget-friendly choice for teams looking to keep costs down.
+
+=== "Limelight"
+
+    * [Limelight](https://limelightvision.io/products/limelight-4) is a popular quality-oriented choice for FRC vision systems.
 
 ### Sensors
 * CANRange: Sensor that uses proximity to automate. Can be used in intakes or passthroughs to automate movement or running of other components (motors, etc)
