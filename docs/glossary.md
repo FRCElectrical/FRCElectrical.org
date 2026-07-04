@@ -1,6 +1,6 @@
 ---
 icon: lucide/zap
-title: Contribution
+title: Glossary
 ---
 
 # Glossary
