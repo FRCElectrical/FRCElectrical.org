@@ -29,3 +29,10 @@ Here are some common terms and tools you may want to reference while learning ab
 - **RSL** — Robot Signal Light; used to indicate the status of the robot.
 
 - **Crimper** — A tool used to make and complete wire crimps. Anderson crimpers are used for Anderson-style connectors, and similar tools are used for other connector types.
+
+- **Contact** - The metal part that is crimped onto bare wire.
+
+- **Housing** - The plastic part that shrouds the contact.
+
+- **TPA** - Terminal Positional assurance: This plastic part goes into Molex SL TPA housings for increased strength on the crimped connection.
+

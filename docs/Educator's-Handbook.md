@@ -18,26 +18,31 @@ title: Educator's Handbook
   * Motors
 
 ## Learning Crimps
-This section needs to be split into two parts- batteries and other crimping. To learn to crimp batteries, we recommend you 
+This section needs to be split into two parts- batteries and other crimping. To learn to crimp batteries, we recommend you get all of the kids and demonstrate how to crimp a battery. To learn this, go to the battery section on our learning course. Then, allow the kids to actually crimp a battery themselves in the case that your team buys batteries every year. 
+* For general crimping, this should also be demonstrated first. Signs of an improper crimp should also be noted. For molex, the crimp guide is a valuable resource.
 
 ### Project
-* Return to the board after crimping is learned and allow members to re-crimp linear WAGOs with Molex or Anderson Crimps. 
-* Continue crimp practice on previous robots (if applicable)
-  * Good troubleshooting tests could be administered on previous robots by creating superficial problems
+* Universal Crimping Training: Get your kids together and demonstrate how to crimp Molex/Anderson/Lugs onto a pair of CAN/power wires. Have them each, one at a time, do the same as you did. Next, you should show them how to place the housing (and TPA if applicable) properly, with the yellow wire going into the side with the arrow if using a Molex housing. 
+* Battery Specific: Demonstrate the entire process of crimping a battery, including the heat shrink and connecting lugs. Have the kids then get into groups of however many batteries need to be crimped for the season and let them have at it, forming a line for the necessary tools and being present and vigilant as the lead. Drills like this, you need to be sure everyone is following safety procedures.
+
 
 ## Wire Planning
 The cornerstone of preventable wiring errors must be refined.
 
+Every lead has a different way they choose to plan their wiring. Some do it in their head, which is perfectly fine, and some draw it out beforehand. Routing is similar. Some choose to have their wires neat and in perfect meticulous bundles while others choose to beeline. Again, both are perfectly acceptable practices. Teach your kids what you do and explain your rationale. Perfect organization takes time, but it allows for quicker troubleshooting and is easy to look at. Beelining may look slightly more messy, but is quicker, the wires are still strain relieved and in no way are hard to look at. 
+
+!!! Warning
+
+  Be sure to not create ![rats nests](./assets/images-1.png)
+
 ### Project
-* Work in tandem with your CAD/Design team to create prototype mechanisms for previous games
-* Plan wiring using online software
-  * Can be as simple as drawing wires on a picture 
-  * Can be as complex as schematics on draw.io
+* Like the diagram shown before, plan wiring again, but more detailed, maybe using online software this time.
+  * This can still be as simple as drawing wires on a picture but it can be as complex as schematics on draw.io
 * Enact the wiring as per your plan on the subsystem and determine where the plan failed
 * Reference mechanism wiring in the mechanism wiring section
 
 
 ## What to do as a Lead/Mentor
-Being a lead can sometimes be challenging especially in regards to teaching. It may at times be easier to do things all by yourself. 
-
-But you should always include and inspire the kids to initiate.
+Being a lead can sometimes be challenging especially in regards to teaching. It may at times be easier to do things all by yourself. But you should always include and inspire the kids to initiate.
+* Never do something alone if there are kids to teach. Allow them at the VERY least to view what you are doing while you are explaining. THe best case scenario is that they know how to do what you are doing and you delegate the task to them. 
+* Don’t allow kids to slack off. The path of least resistance is common not only for electrons but also is tempting for rookies. Actually give them something to do, even if it is something that is slightly menial, it will have value.
