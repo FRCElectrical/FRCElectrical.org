@@ -70,10 +70,15 @@ The comprehensive learning guide and technical reference for FRC Electrical.
     Goes over the basics of the FRC Control System.
     [→](FRC-Control-System.md){ .stretched-link }
 
--   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
+-   :lucide-toolbox:{ style="color: #ffffff;" } **Making Connections**
+    <br>
+    Teaches you to crimp Molex, Anderson, Batteries, Ferrules, Butt Crimps, and more!
+    [→](Making-Connections.md){ .stretched-link }
+
+    :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
-    [→](Making-Connections.md){ .stretched-link }
+    [→](tools.md){ .stretched-link }
 
     :lucide-sun-medium:{ style="color: #ffffff;" } **Batteries**
     <br>
