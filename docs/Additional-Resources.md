@@ -25,10 +25,14 @@ This page collects helpful links, guides, and external resources related to the 
 ## Community & Reference
 
 - [Status light reference poster (Chief Delphi)](https://www.chiefdelphi.com/t/status-light-reference-poster/508453?u=pixl)
+- [Electrical Training Curriculum](https://www.chiefdelphi.com/t/electrical-training-curriculum-from-frc-5026/510284)
 
 ## Videos
 
 - [Brushed vs Brushless overview](https://www.youtube.com/watch?v=wAtN3SEYSco)
+- [Basics of FRC Electrical](https://www.youtube.com/watch?v=GvtpIHAQKxs)
+- [FRC Controls System Wiring](https://www.youtube.com/watch?v=Xd5Qq_bMl7k)
+- [How to Wire a Robot](https://www.youtube.com/watch?v=lGgIhxYuSHM)
 
 
 
