@@ -47,12 +47,12 @@ Copyright &copy; 2026 FRCElectrical.org
 nav = [
   "index.md",
   "intro.md",
-  "Educator's Handbook.md",
-  "FRC Control System.md",
+  "Educator's-Handbook.md",
+  "FRC-Control-System.md",
   "Battery.md",
-  "Making Connections.md",
+  "Making-Connections.md",
   "Pneumatics.md",
-  "Mechanism Wiring.md",
+  "Mechanism-Wiring.md",
   {"misc stuff" = [
     "misc stuff/ZensicalExamples.md",
     "misc stuff/markdown.md"
