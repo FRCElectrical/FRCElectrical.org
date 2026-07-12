@@ -39,23 +39,33 @@ These are the devices that control the motors and help direct power and signals 
 
 === "CTRE's Talon FX"
 
+    ![TalonFX](/assets/FRC-Control-System/Talon-FX.png)
+
     * This is the controller that is integrated into the Kraken’s (both X60 and X44). Talon FX acts as an integrated motor controller, meaning that an external controller that is separately wired is not needed.
     * For Kraken X60/X44s, wiring is relatively simple because the controller is integrated in the motor itself. CAN and power directly stem from the motor and can be connected to their appropriate locations.
 
 === "REV's SparkMAX"
+
+    ![Spark-Max](/assets/FRC-Control-System/SPARK_MAX.png)
 
     * [SparkMAX](https://www.revrobotics.com/rev-11-2158/) is often considered the best motor controller for price.
     * This is a controller optimized for the NEO brand and works for brushed and brushless motors.
 
 === "REV's Spark Flex"
 
+    ![Spark-Flex](/assets/FRC-Control-System/SPARK_FLEX.png)
+
     * [Spark Flex](https://www.revrobotics.com/rev-11-2159/) is a motor controller made for integration with the NEO Vortex.
 
 === "TTB's Nova"
 
+    ![Thrifty-Nova](/assets/FRC-Control-System/Thrifty-Nova.png)
+
     * [TTB's Nova](https://www.thethriftybot.com/products/thrifty-nova) is Thrifty Bot’s motor controller option.
 
 === "CTRE's Talon FXS"
+
+    ![Talon FXS](/assets/FRC-Control-System/Talon-FXS.png)
 
     * [Talon FXS](https://store.ctr-electronics.com/products/talon-fxs) is optimized for CTRE’s Minion motor and supports CAN FD capabilities. The TalonFXS can also work with other motors, like REV's NEO 1.2 / 2.0 / 550. 
 
@@ -64,26 +74,34 @@ These allow for the positional accuracy of your robot, as shown on logs. This is
 
 === "CTRE's Pigeon 2.0"
 
+    ![Talon FXS](/assets/FRC-Control-System/Pigeon-2.png)
+
     * [Pigeon 2.0](https://store.ctr-electronics.com/products/pigeon-2) is often considered the best quality option.
-    * CTRE’s gyroscope.
 
 === "Redux's CANandGyro"
 
+    ![CANandGyro](/assets/FRC-Control-System/CANandGyro.png)
+
     * [CANandGyro](https://shop.reduxrobotics.com/products/boron-canandgyro) is a strong price-focused choice.
-    * Redux’s gyroscope.
 
 ### Power Distribution
 Power distribution boards are how power gets around the robot. They can range from complex circuits to simple copper blocks.
 
 === "REV's Power Distribution Hub (PDH)"
 
+    ![PDH](/assets/FRC-Control-System/PDH.png)
+
     * [PDH](https://www.revrobotics.com/rev-11-1850/) is often considered the best quality option for teams that want a robust and modern distribution board.
 
 === "CTRE's Power Distibution Panel (PDP) 2.0"
 
+    ![PDP2.0](/assets/FRC-Control-System/PDP-2.png)
+
     * [PDP 2.0](https://store.ctr-electronics.com/products/pdp-2) is a strong budget-friendly choice for teams looking for a reliable lower-cost option. The PDP 2.0 also has more ports than the PDH, so if you need more slots, this is the way to go.
 
 === "AndyMark Power Distribution (AMPD)"
+
+    ![AMPD](/assets/FRC-Control-System/AMPD.png)
 
     * [AndyMark Power Distribution](https://andymark.com/products/ampd-andymark-power-distribution) is another common choice that works well for many FRC teams.
 
@@ -99,19 +117,31 @@ Power distribution boards are how power gets around the robot. They can range fr
 ### Main Breaker
 * The main breaker is varied in form and is a crucial part of the robot. It’s basically your robot’s on/off switch. It is required to exist and be accessible on every robot. 
 === "Bussman Breaker"
+
+    ![Bussman](/assets/FRC-Control-System/Bussman.png)
+    
     * [CTRE](https://store.ctr-electronics.com/products/120-amp-breaker?srsltid=AfmBOor-v21BDH5-92BFtIYnJAys5dAb1JL0s9RLTLTgBj7XD2WAT5Jv) 
     * This breaker takes an M6 nut.
 === "Optifuse"
+
+    ![Optifuse](/assets/FRC-Control-System/Optifuse.png)
+
     * This breaker takes a ¼-28 nut.
 !!! warning
     DO NOT USE OPTIFUSE BREAKERS. They are prone to failures and pop easier than almost any other kind. See [this CD thread](https://www.chiefdelphi.com/t/one-rule-change-that-will-improve-everyones-season-ban-the-optifuse/439983?u=jimmyy) for more information
 
 
 ### RSL (Robot Signal Light)
+
+![RSL](/assets/FRC-Control-System/RSL.png)
+
 * The RSL is crucial to safety on the robot. It turns on when the robot is powered on and blinks when the robot is enabled.
 * Wiring the RSL is relatively simple: Make sure the black wire strand from your two strand wire, or ground is in the middle port labeled N, join the two outer ports with a small piece of red wire, and then in the terminal labeled Lb, place the red wire strand from your two strand wire. For easy replaceability, get the [RSL Lever Lock Hub](https://www.digikey.com/en/products/detail/phoenix-contact/1110582/15211615). In both cases, use a small flathead screwdriver for either all wiring or placing the hub in.
 
 ### Systemcore
+
+![Systemcore](/assets/FRC-Control-System/Systemcore.png)
+
 * [WPILib Introduction](https://docs.wpilib.org/en/latest/docs/software/systemcore-info/systemcore-introduction.html)
 * [Alpha Testing](https://community.firstinspires.org/systemcore-alpha-testing-first-wave)
 
