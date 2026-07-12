@@ -6,18 +6,13 @@ title: Mechanism Wiring
 # Specific Mechanism Wiring
 
 
----
-icon: lucide/zap
-title: Mechanism Wiring
----
-
-# Specific Mechanism Wiring
 
 ## Turret
 Turrets rotate and electronics on whatever mechanism is on said turret need to get power. The wires that go to them can break, however. Thus, we need methods to effectively transfer power/CAN. Two main ways are used to do this, both involving a BIGUS chain.
 
 There are two suggested methods to wiring a Turret
 - [CF Spring BIGUS](assets/PXL_20260220_0440071372.mp4)
+
 - [Bending BIGUS](https://youtube.com/shorts/g33nFoGUTaQ?si=z2qUZRFscW2Fu6Qe)
 
 
