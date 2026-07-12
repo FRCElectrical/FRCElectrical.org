@@ -1,24 +1,24 @@
 ---
 icon: lucide/zap
-title: Welcome to FRCElectrical.org (beta)
+title: Home
 hide:
   - navigation
   - toc
 ---
 
-<div class="grid" markdown>
+<div class="hero-container" markdown>
 
-<div markdown>
+<div class="hero-content" markdown>
 # Welcome to FRCElectrical.org
-The comprehensive learning guide and technical reference for FRC Elecrical.
 
-[Start Learning](){ .md-button .md-button--primary }
+The comprehensive learning guide and technical reference for FRC Electrical.
+
+[Start Learning](intro.md){ .md-button .md-button--primary hero-cta }
+
 </div>
 
-<div markdown>
-<span style="color: var(--md-typeset-color); font-size: 100px;">
-    :lucide-zap:
-</span>
+<div class="hero-graphic" markdown>
+<span class="hero-icon" aria-hidden="true">:lucide-zap:</span>
 </div>
 
 </div>
@@ -65,10 +65,25 @@ The comprehensive learning guide and technical reference for FRC Elecrical.
     Everything you need to know to get started with electrical.
     [→](intro.md){ .stretched-link }
 
+-   :lucide-notebook-pen:{ style="color: #ffffff;" } **Educator's Handbook**
+    <br>
+    How you can teach FRC Electrical!
+    [→](Educator's-Handbook.md){ .stretched-link }
+
 -   :lucide-book-open:{ style="color: #ffffff;" } **Intro to the FRC Control System**
     <br>
     Goes over the basics of the FRC Control System.
-    [→](./FRC%20Control%20System.md){ .stretched-link }
+    [→](FRC-Control-System.md){ .stretched-link }
+
+-   :lucide-toolbox:{ style="color: #ffffff;" } **Making Connections**
+    <br>
+    Teaches you to crimp Molex, Anderson, Batteries, Ferrules, Butt Crimps, and more!
+    [→](Making-Connections.md){ .stretched-link }
+
+-   :lucide-package-x:{ style="color: #ffffff;" } **Mechanism Wiring**
+    <br>
+    Goes over case-specific wiring techniques!
+    [→](Mechanism-Wiring.md){ .stretched-link }
 
 -   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
