@@ -57,11 +57,7 @@ nav = [
   },
   "Making-Connections.md",
   "Mechanism-Wiring.md",
-  {"misc stuff" = [
-    "misc stuff/ZensicalExamples.md",
-    "misc stuff/markdown.md"
-  ]},
-  "glossary.md",
+  "Glossary.md",
   "Contribution.md"
 ]
 
