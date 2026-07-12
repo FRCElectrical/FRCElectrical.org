@@ -1,6 +1,6 @@
 ---
 icon: lucide/zap
-title: Intro
+title: Intro to FRC Electrical
 ---
 
 # Intro
