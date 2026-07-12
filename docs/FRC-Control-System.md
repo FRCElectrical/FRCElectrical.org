@@ -26,13 +26,38 @@ title: FRC Control System
   * Brushed: Brushed motors have 4 components: The stator, rotor, commutator, and brushes. In this diagram, the rotor can be thought of as the shaft and rotor coils. They are attached to the commutator. The way it works is this: The stator magnets are permanent, and when electrons are passed from the brushes to the commutator to the rotor coils, it produces a magnetic field opposing the one created by the stator magnets’ fields. However, the magnets would usually stop rotating when the fields are in alignment. How does this get prevented? The commutator uses a specific pattern of metal to make it so that the field always opposes that of the stator magnets, therefore causing rotation. Brushed motors are most commonly used in cheaper appliances.
   * Brushless: Brushless motors are like brushed motors in many ways. They can have an internal or external rotor (the diagram has an internal rotor). What you may notice about the motor is that it has no brushes. How then does it create opposite polarities? This is through an electronic circuit that detects how much the motor rotates. This makes for less contact throughout the system and a more precise transmission of power, which is why brushless motors are used throughout the world and especially in FRC. 
 #### Common FRC Motors
-  * WCP's Krakens (Best Pick for Quality): Krakens are arguably the most powerful motor in FRC. There are two types of Krakens- [X60](https://store.ctr-electronics.com/products/kraken-x60) and [X44](https://store.ctr-electronics.com/products/kraken-x44?srsltid=AfmBOopKr-9t43Uap2jITNGqDDsnkg3THzY--EEx-VA4rGnkshChu-4a) (For 60 mm and 44 mm Outer Diameter, respectively). These motors have built-in motor controllers, called TalonFX, which will be discussed in more detail later. They have two screws for cooling ports on the side that can be removed and covered with electrical tape. For Kraken wiring, there are two ways to go about it, but for both, the [CTRE Torque Wrench](https://store.ctr-electronics.com/products/pre-set-torque-wrench?srsltid=AfmBOooLYptNM7_Vcb-sw1QYtiG6x_efJdQC7caX8DyuCrGtbxJBxO7_) is a tool that makes the application much better and removes hesitancy due to fear of overtightening bolts.
-    * You can use the built-in ring terminals. The Kraken comes with them, and with the torque wrench, they’re easy to install. The wiring guide is on the [WCP website](https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-+-talonfx/overview-and-features/wiring-and-modularity). This may require extra splicing for longer wire runs, but overall, they are a fine solution.
-    * WCP Powerpole Adapter Boards. This replaces the ring terminals with common FRC connectors: Anderson Powerpole connectors and Molex SL connectors, which will be taught later. One extremely important thing to note is that the screws for these are NOT able to be used for ring terminals. That can severely damage the controller and also cause CAN bus issues. These allow for a continuous run and easy removal of wires, no matter what length wire run is necessary. The non-flipped X60’s also allow for termination using their top Weidmuller connectors as a hub for a 120 Ohm resistor. [X60 Board](https://wcproducts.com/products/wcp-1380), [Flipped X60 Board](https://wcproducts.com/products/wcp-1903?pr_prod_strat=e5_desc&pr_rec_id=337093772&pr_rec_pid=9040434102484&pr_ref_pid=7989871542484&pr_seq=uniform), [X44 Flipped Board](https://wcproducts.com/products/wcp-1904?pr_prod_strat=jac&pr_rec_id=06f290df0&pr_rec_pid=9040435544276&pr_ref_pid=9040434102484&pr_seq=uniform)
-  * REV's NEO (NEO Vortex and NEO 2.0 best picks for price)
-      * There are 4 kinds of NEO motors. The [NEO 1.1](https://www.revrobotics.com/rev-21-1650/), [NEO 2.0](https://www.revrobotics.com/rev-21-1653/), [NEO 550](https://www.revrobotics.com/rev-21-1651/), and [NEO Vortex](https://www.revrobotics.com/rev-21-1652/). All of them are controlled the same way, using an external Motor controller. These, unlike the TalonFX's, aren't built in, so a separate space is needed to mount them. 
-  * CIMs
-      * [CIM Motors](https://andymark.com/products/2-5-in-cim-motor?srsltid=AfmBOorBBClaISFHUpTn6bFgXE1w_2Pfd6TXEb68cYwynubycuwPgYn_) are the only brushed motors seen on this list. They are the motors FIRST uses on their fields and the motors that come with the kitbot. Similar to NEOs, they are controlled with External motor controllers.
+##### WCP's Kraken
+Krakens are arguably the most powerful motor in FRC. There are two types of Krakens- [X60](https://store.ctr-electronics.com/products/kraken-x60) and [X44](https://store.ctr-electronics.com/products/kraken-x44?srsltid=AfmBOopKr-9t43Uap2jITNGqDDsnkg3THzY--EEx-VA4rGnkshChu-4a) (For 60 mm and 44 mm Outer Diameter, respectively). These motors have built-in motor controllers, called TalonFX, which will be discussed in more detail later. They have two screws for cooling ports on the side that can be removed and covered with electrical tape. For Kraken wiring, there are two ways to go about it, but for both, the [CTRE Torque Wrench](https://store.ctr-electronics.com/products/pre-set-torque-wrench?srsltid=AfmBOooLYptNM7_Vcb-sw1QYtiG6x_efJdQC7caX8DyuCrGtbxJBxO7_) is a tool that makes the application much better and removes hesitancy due to fear of overtightening bolts.
+
+* You can use the built-in ring terminals. The Kraken comes with them, and with the torque wrench, they’re easy to install. The wiring guide is on the [WCP documentation](https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-+-talonfx/overview-and-features/wiring-and-modularity). This may require extra splicing for longer wire runs, but overall, they are a fine solution.
+* WCP Powerpole Adapter Boards. This replaces the ring terminals with common FRC connectors: Anderson Powerpole connectors and Molex SL connectors, which will be taught later. One extremely important thing to note is that the screws for these are NOT able to be used for ring terminals. That can severely damage the controller and also cause CAN bus issues. These allow for a continuous run and easy removal of wires, no matter what length wire run is necessary. The non-flipped X60’s also allow for termination using their top Weidmuller connectors as a hub for a 120 Ohm resistor. [X60 Board](https://wcproducts.com/products/wcp-1380), [Flipped X60 Board](https://wcproducts.com/products/wcp-1903?pr_prod_strat=e5_desc&pr_rec_id=337093772&pr_rec_pid=9040434102484&pr_ref_pid=7989871542484&pr_seq=uniform), [X44 Flipped Board](https://wcproducts.com/products/wcp-1904?pr_prod_strat=jac&pr_rec_id=06f290df0&pr_rec_pid=9040435544276&pr_ref_pid=9040434102484&pr_seq=uniform)
+
+=== "X60"
+    ![x60](/assets/FRC-Control-System/X60.png)
+    [WCP](https://wcproducts.com/collections/featured-products/products/kraken)
+=== "X44"
+    ![x44](/assets/FRC-Control-System/X44.png)
+    [WCP](https://wcproducts.com/collections/featured-products/products/kraken)
+
+##### REV's NEOs
+REV's NEO (NEO Vortex and NEO 2.0 best picks for price)
+=== "1.1"
+    ![1.1](/assets/FRC-Control-System/NEO-1_1.png)
+
+    [REV](https://www.revrobotics.com/rev-21-1650)
+=== "2.0"
+    ![2.0](/assets/FRC-Control-System/NEO-2_0.png)
+
+    [REV](https://www.revrobotics.com/rev-21-1653)
+=== "Vortex"
+    ![Vortex](/assets/FRC-Control-System/NEO_Vortex.png)
+    
+    [REV](https://www.revrobotics.com/rev-21-1652/)
+    
+  
+##### CIMs
+    
+- [CIM Motors](https://andymark.com/products/2-5-in-cim-motor?srsltid=AfmBOorBBClaISFHUpTn6bFgXE1w_2Pfd6TXEb68cYwynubycuwPgYn_) are the only brushed motors seen on this list. They are the motors FIRST uses on their fields and the motors that come with the kitbot. Similar to NEOs, they are controlled with External motor controllers.
 
 ### Motor Controllers
 These are the devices that control the motors and help direct power and signals to each mechanism.
@@ -150,9 +175,13 @@ These are like the power distribution boards, but they are used for electronics 
 
 === "REV's Mini Power Module (MPM)"
 
+    ![MPM](/assets/FRC-Control-System/MPM.png)
+
     * [REV Mini Power Module](https://www.revrobotics.com/rev-11-1956/) is commonly used to provide regulated power to smaller electronics and sensors.
 
 === "CTRE's Voltage Regulator Module (VRM)"
+
+    ![VRM](/assets/FRC-Control-System/VRM.png)
 
     * [CTRE's Voltage Regulator Module (VRM)](https://store.ctr-electronics.com/products/voltage-regulator-module) is used when a stable lower voltage supply is needed for supporting electronics.
 
