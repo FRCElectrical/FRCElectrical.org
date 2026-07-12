@@ -57,6 +57,7 @@ nav = [
   },
   "Making-Connections.md",
   "Mechanism-Wiring.md",
+  "Tools.md",
   "Glossary.md",
   "Contribution.md"
 ]
@@ -364,6 +365,9 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+
+[project.extra]
+generator = false
 [project.markdown_extensions.pymdownx.snippets]
 auto_append = ["docs/includes/Glossary.md"]
 
