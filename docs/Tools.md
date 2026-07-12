@@ -99,6 +99,30 @@ title: Tools & Crimps
 
 <hr>
 
+## Andersons
+
+### Anderson Crimpers
+=== "Budget Pick"
+    [iWiss Powerpole Crimper](https://wcproducts.com/products/iwiss-tools)
+
+    ![iWiss Powerpole Crimper](/assets/Tools/iWissPowerpoleCrimpers.png)
+
+=== "Quality Pick"
+    [Powerwerx Powerpole Crimper](https://powerwerx.com/tricrimp-powerpole-connector-crimping-tool)
+
+    ![Powerwerx Powerpole Crimper](/assets/Tools/PowerwerxPowerpoleCrimper.png)
+
+### Anderson Crimps
+| Part Type | Part Number | Description | WCP Link | Other Link |
+| --------- | ----------- | ----------- | --------- | ---------- |
+| 45A Red Connector | WCP-2529 | Red Connector Housing | [WCP](https://wcproducts.com/products/wire-contacts-connectors) | [CTRE](https://store.ctr-electronics.com/products/anderson-powerpole-pp15-45) | 
+| 45A Black Connector | WCP-2530 | Black Connector Housing | [WCP](https://wcproducts.com/products/wire-contacts-connectors) | [CTRE](https://store.ctr-electronics.com/products/anderson-powerpole-pp15-45) |
+| 45A White Connector | WCP-2531 | White Connector Housing | [WCP](https://wcproducts.com/products/wire-contacts-connectors) | [CTRE](https://store.ctr-electronics.com/products/anderson-powerpole-pp15-45) |
+| 45A Contact | WCP-2532 | 45A Powerpole Contact | [WCP](https://wcproducts.com/products/wire-contacts-connectors) | [CTRE](https://store.ctr-electronics.com/products/anderson-powerpole-contact) |
+
+
+<hr>
+
 ## Wire Strippers
 ### Battery
 === "Budget Pick"
@@ -119,6 +143,18 @@ title: Tools & Crimps
     [AutomationDirect DN-WS](https://www.automationdirect.com/adc/shopping/catalog/tools_-a-_test_equipment/pliers_-a-_cutting_tools/wire_-a-_cable_stripping_tools/dn-ws)
 
     ![AutomationDirect DN-WS](/assets/Tools/AutomationDirect_DN-WS.png)
+
+<hr>
+
+## Flush Cutters
+=== "Budget Pick"
+    [iWiss Diagonal Flush Cutters](https://wcproducts.com/products/iwiss-tools)
+
+    ![iWiss Diagonal Flush Cutters](/assets/Tools/iWissFlushCutters.png)
+=== "Quality Pick"
+    [Knipex 78 91 125](https://www.knipex-tools.com/products/electronics-pliers/knipex-super-knips-electronics-pliers/electronics-super-knips/7891125)
+
+    ![Knipex 78 91 125](/assets/Tools/Knipex_78-91-125.png)
 
 <hr>
 
