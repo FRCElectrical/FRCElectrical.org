@@ -15,8 +15,6 @@ The comprehensive learning guide and technical reference for FRC Electrical.
 
 [Start Learning](intro.md){ .md-button .md-button--primary hero-cta }
 
-
-
 </div>
 
 <div class="hero-graphic" markdown>
@@ -67,15 +65,40 @@ The comprehensive learning guide and technical reference for FRC Electrical.
     Everything you need to know to get started with electrical.
     [→](intro.md){ .stretched-link }
 
+-   :lucide-notebook-pen:{ style="color: #ffffff;" } **Educator's Handbook**
+    <br>
+    How you can teach FRC Electrical!
+    [→](Educator's-Handbook.md){ .stretched-link }
+
 -   :lucide-book-open:{ style="color: #ffffff;" } **Intro to the FRC Control System**
     <br>
     Goes over the basics of the FRC Control System.
-    [→](){ .stretched-link }
+    [→](FRC-Control-System.md){ .stretched-link }
+
+-   :lucide-toolbox:{ style="color: #ffffff;" } **Making Connections**
+    <br>
+    Teaches you to crimp Molex, Anderson, Batteries, Ferrules, Butt Crimps, and more!
+    [→](Making-Connections.md){ .stretched-link }
+
+-   :lucide-package-x:{ style="color: #ffffff;" } **Mechanism Wiring**
+    <br>
+    Goes over case-specific wiring techniques!
+    [→](Mechanism-Wiring.md){ .stretched-link }
 
 -   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
-    [→](){ .stretched-link }
+    [→](tools.md){ .stretched-link }
+
+-   :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
+    <br>
+    Additional resources for easier access
+    [→](Additional-Resources.md){ .stretched-link }
+
+-  :lucide-square-chart-gantt:{ style="color: #ffffff;" } **Glossary**
+    <br>
+    Recaps specific Electrical Terminology!
+    [→](includes/Glossary.md){ .stretched-link }
 
 -   :lucide-wrench:{ style="color: #ffffff;" } **Contribution**
     <br>

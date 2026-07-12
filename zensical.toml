@@ -46,12 +46,18 @@ Copyright &copy; 2026 FRCElectrical.org
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   "index.md",
+  "Educator's-Handbook.md",
   "intro.md",
-  "FRC Control System.md",
-  {"misc stuff" = [
-    "misc stuff/ZensicalExamples.md",
-    "misc stuff/markdown.md"
-  ]},
+  {
+    "FRC Control System" = [
+      "FRC-Control-System.md",
+      "Battery.md",
+      "Pneumatics.md"
+    ]
+  },
+  "Making-Connections.md",
+  "Mechanism-Wiring.md",
+  "Glossary.md",
   "Contribution.md"
 ]
 
@@ -166,7 +172,7 @@ features = [
     # With this feature enabled users can add tooltips to links that will be
     # displayed when the mouse pointer hovers the link.
     # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
-    "content.tooltips",
+    # "content.tooltips",
 
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
@@ -358,3 +364,6 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.snippets]
+auto_append = ["docs/includes/Glossary.md"]
+
