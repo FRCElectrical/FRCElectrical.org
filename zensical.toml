@@ -57,6 +57,7 @@ nav = [
   },
   "Making-Connections.md",
   "Mechanism-Wiring.md",
+  "Tools.md",
   "Glossary.md",
   "Contribution.md"
 ]

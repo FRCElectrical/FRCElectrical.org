@@ -1,6 +1,6 @@
 ---
 icon: lucide/hammer
-title: Electrical Tools, Wire, and Crimps
+title: Tools & Crimps
 ---
 
 # Tools, Wire, and Crimps

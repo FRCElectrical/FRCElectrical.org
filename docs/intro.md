@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/play
 title: Intro to FRC Electrical
 ---
 

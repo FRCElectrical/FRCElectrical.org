@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/house
 title: Home
 hide:
   - navigation
@@ -88,7 +88,17 @@ The comprehensive learning guide and technical reference for FRC Electrical.
 -   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
-    [→](./Tools.md){ .stretched-link }
+    [→](tools.md){ .stretched-link }
+
+-   :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
+    <br>
+    Additional resources for easier access
+    [→](Additional-Resources.md){ .stretched-link }
+
+-  :lucide-square-chart-gantt:{ style="color: #ffffff;" } **Glossary**
+    <br>
+    Recaps specific Electrical Terminology!
+    [→](includes/Glossary.md){ .stretched-link }
 
 -   :lucide-wrench:{ style="color: #ffffff;" } **Contribution**
     <br>

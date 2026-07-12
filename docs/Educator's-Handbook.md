@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/book-open-text
 title: Educator's Handbook
 ---
 

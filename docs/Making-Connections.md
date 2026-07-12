@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/plug-zap
 title: Making Connections
 ---
 
