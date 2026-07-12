@@ -9,7 +9,7 @@ The Pneumatic System works to deliver quick, typically linear, movements using c
 
 
 !!! danger "They can be **very** dangerous"
-  [IRI 2022 Incident](https://clips.twitch.tv/QuaintAcceptableWormDancingBaby-qqE-DulX9UcVpgSX?tt_content=url&tt_medium=clips_api)
+    [IRI 2022 Incident Clip](https://clips.twitch.tv/QuaintAcceptableWormDancingBaby-qqE-DulX9UcVpgSX?tt_content=url&tt_medium=clips_api) and [CD Thread](https://www.chiefdelphi.com/t/1023-clippard-tank-explosion-at-iri/413484?u=jimmyy)
 
 This is the general FRC Pneumatics Layout you need to learn:
 ![FRC Pneumatics System](assets/FRC%20Pneumatics%20Layout.png)
