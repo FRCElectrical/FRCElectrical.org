@@ -57,7 +57,7 @@ nav = [
   },
   "Making-Connections.md",
   "Mechanism-Wiring.md",
-  "Glossary.md",
+  "includes/Glossary.md",
   "Contribution.md"
 ]
 
@@ -172,7 +172,7 @@ features = [
     # With this feature enabled users can add tooltips to links that will be
     # displayed when the mouse pointer hovers the link.
     # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
-    "content.tooltips",
+    # "content.tooltips",
 
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
@@ -364,3 +364,6 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.snippets]
+auto_append = ["docs/includes/Glossary.md"]
+
