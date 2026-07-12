@@ -34,9 +34,11 @@ Krakens are arguably the most powerful motor in FRC. There are two types of Krak
 
 === "X60"
     ![x60](/assets/FRC-Control-System/X60.png)
+
     [WCP](https://wcproducts.com/collections/featured-products/products/kraken)
 === "X44"
     ![x44](/assets/FRC-Control-System/X44.png)
+    
     [WCP](https://wcproducts.com/collections/featured-products/products/kraken)
 
 ##### REV's NEOs
