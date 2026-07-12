@@ -88,7 +88,7 @@ The comprehensive learning guide and technical reference for FRC Electrical.
 -   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
-    [→](tools.md){ .stretched-link }
+    [→](Tools.md){ .stretched-link }
 
 -   :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
     <br>
