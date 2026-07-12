@@ -75,37 +75,37 @@ The comprehensive learning guide and technical reference for FRC Electrical.
     Teaches you to crimp Molex, Anderson, Batteries, Ferrules, Butt Crimps, and more!
     [→](Making-Connections.md){ .stretched-link }
 
-    :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
+-   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
     [→](tools.md){ .stretched-link }
 
-    :lucide-sun-medium:{ style="color: #ffffff;" } **Batteries**
+-   :lucide-sun-medium:{ style="color: #ffffff;" } **Batteries**
     <br>
     The Powerhouse of the Electrical System
     [→](Battery.md){ .stretched-link }
 
-    :lucide-traffic-cone:{ style="color: #ffffff;" } **Pneumatics**
+-   :lucide-traffic-cone:{ style="color: #ffffff;" } **Pneumatics**
     <br>
     Covers the use of compressed air in the Controls System!!
     [→](Pneumatics.md){ .stretched-link }
 
-    :lucide-package-x:{ style="color: #ffffff;" } **Mechanism Wiring**
+-   :lucide-package-x:{ style="color: #ffffff;" } **Mechanism Wiring**
     <br>
     Goes over case-specific wiring techniques!
     [→](Mechanism-Wiring.md){ .stretched-link }
 
-    :lucide-square-dashed-text:{ style="color: #ffffff;" } **Glossary**
+-  :lucide-square-chart-gantt:{ style="color: #ffffff;" } **Glossary**
     <br>
     Recaps specific Electrical Terminology!
     [→](Glossary.md){ .stretched-link }
 
-    :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
+-   :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
     <br>
     Additional resources for easier access
     [→](Additional-Resources.md){ .stretched-link }
 
-    :lucide-notebook-pen:{ style="color: #ffffff;" } **Educator's Handbook**
+-   :lucide-notebook-pen:{ style="color: #ffffff;" } **Educator's Handbook**
     <br>
     How you can teach FRC Electrical!
     [→](Educator's-Handbook.md){ .stretched-link }
