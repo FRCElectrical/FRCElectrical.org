@@ -46,8 +46,8 @@ Copyright &copy; 2026 FRCElectrical.org
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   "index.md",
-  "intro.md",
   "Educator's-Handbook.md",
+  "intro.md",
   {
     "FRC Control System" = [
       "FRC-Control-System.md",
