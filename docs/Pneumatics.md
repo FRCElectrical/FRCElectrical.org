@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/wind
 title: Pneumatics
 ---
 
