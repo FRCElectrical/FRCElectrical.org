@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/git-fork
 title: Contribution
 ---
 

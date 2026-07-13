@@ -166,6 +166,77 @@ h3 {
   border-radius: 6px;
 }
 
+abbr[title] {
+  text-decoration: underline dotted #007acc;
+  cursor: help;
+  position: relative;
+}
+
+@media (min-width: 769px) {
+  abbr[title]:hover::after {
+    content: attr(title) !important;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    /* Allow wrapping on desktop if text is long, up to 250px */
+    white-space: normal !important;
+    width: max-content;
+    max-width: 250px;
+  }
+
+  abbr[title]:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #222 transparent transparent transparent;
+    z-index: 999;
+  }
+}
+
+@media (max-width: 768px) {
+  abbr[title]:active::after,
+  abbr[title]:hover::after {
+    content: attr(title) !important;
+    position: fixed;
+    bottom: 20px; /* Floats just above the bottom edge of the phone */
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    
+    /* Styling */
+    background-color: #222;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    z-index: 9999;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+    
+    /* Text wrapping mechanics */
+    white-space: normal !important;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  abbr[title]:hover::before,
+  abbr[title]:active::before {
+    display: none !important;
+  }
+}
 
 
 

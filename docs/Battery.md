@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: lucide/battery-charging
 title: Battery
 ---
 
@@ -9,11 +9,21 @@ title: Battery
 
 ## What to Get
 * SLA Batteries come from many vendors. For FRC, we use 3 brands mainly: [Duracell](https://www.batteriesplus.com/product-details/sealed-lead-acid/battery/duracell-ultra/slaa12=18nb?storecode=847&source=google&medium=search&campaign=ecommppc&gad_source=1&gad_campaignid=22449530331&gbraid=0AAAAADgLl5V8SjVLRuUho-ntKgukCfuuM&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8egYnQGYlc_-MwXLNTL3WrZ4Lnflg1MSxvJ7FVTnajWR_du3X8Nq2nhoCPzkQAvD_BwE), [Energizer](https://andymark.com/products/energizer-en18-12v-sla-battery?srsltid=AfmBOooztzZ5x0MIwI7O2a1xBPfYKvO2IUv87yQGBW8DTM_xbGeWM2z1), and [MK](https://andymark.com/products/mk-es17-12-12v-sla-battery-set-of-2?srsltid=AfmBOoqYQC4rZoPfqriHaM3sP9d_8v28mfRGEqA09tlmUgvXY8S4WQ7M). 
+=== "Energizer"
+    ![Energizer](/assets/Battery/Energizer.png)
+=== "MK"
+    ![MK](/assets/Battery/MK.png)
+=== "Duracell"
+    ![Duracell](/assets/Battery/Duracell.png)
+
+!!! warning
+    Duracell is known to be inconsistent, they can be better than MK, however you have to buy many, and then send back the bad ones.
 
 ## Wires/Connectors for Batteries
 * There are two main options for battery wires and battery connectors. We use 4 and 6 AWG wire for batteries and for connectors we use [SB50s](https://powerwerx.com/anderson-sb-connectors-sb50-50amp?srsltid=AfmBOooEGI9cCmnGoLNoHptg3VvKkSyAbujIvzm3Ka8k7bPd4rj6Me6m) and [SB120s](https://powerwerx.com/anderson-sb-connectors-sb120-120amp). 
 * You will usually pair up 6 AWG with SB50s and 4 AWG with SB120s, but people have gotten away with fitting 4 AWG wires into SB50s. This is not recommended, because that is not what the SB50 is rated for and makes things needlessly difficult. 
 * 4 AWG with SB120 connectors is recommended, as this provides slightly more efficient current draw when compared to 6 AWG and SB50s.
+    * Teams also use 2AWG with SB120 for a slight performance increase
 
 ## Battery Assembly
 * The two ways that battery lugs can be connected are by using 2 Nordlock Washers or by using a [Grasshopper Nut](https://www.thethriftybot.com/products/grasshopper-nut) with 2 Nordlock Washers. Both methods will be used in tandem with a 10-32 bolt and nut, with heatshrink placed over top.
