@@ -69,8 +69,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-# Add a custom stylesheet to set a blue theme that works in light/dark modes
-extra_css = ["stylesheets/theme.css"]
+#extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
