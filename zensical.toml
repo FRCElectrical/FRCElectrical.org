@@ -22,7 +22,7 @@ site_description = "Master the FRC Control System. From your first crimp to adva
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "<your name here>"
+site_author = "FRCElectrical Team"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -44,10 +44,23 @@ Copyright &copy; 2026 FRCElectrical.org
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  "index.md",
+  "Educator's-Handbook.md",
+  "intro.md",
+  {
+    "FRC Control System" = [
+      "FRC-Control-System.md",
+      "Battery.md",
+      "Pneumatics.md"
+    ]
+  },
+  "Making-Connections.md",
+  "Mechanism-Wiring.md",
+  "Tools.md",
+  "Glossary.md",
+  "Contribution.md"
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -66,7 +79,7 @@ extra_css = ["stylesheets/theme.css"]
 # The path provided should be relative to the "docs_dir".
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-#extra_javascript = ["javascripts/extra.js"]
+extra_javascript = ["javascripts/header-ctas.js"]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -160,7 +173,7 @@ features = [
     # With this feature enabled users can add tooltips to links that will be
     # displayed when the mouse pointer hovers the link.
     # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
-    "content.tooltips",
+    # "content.tooltips",
 
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
@@ -216,7 +229,10 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    
+    "navigation.tabs",
+    
+    
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
@@ -320,6 +336,7 @@ toggle.name = "Switch to dark mode"
 [project.markdown_extensions.footnotes]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
+toc_depth = "2-6"  # Captures ## (H2), ### (H3), and #### (H4)
 permalink = true
 [project.markdown_extensions.pymdownx.arithmatex]
 generic = true
@@ -348,3 +365,9 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+
+[project.extra]
+generator = false
+[project.markdown_extensions.pymdownx.snippets]
+auto_append = ["docs/includes/Glossary.md"]
+
