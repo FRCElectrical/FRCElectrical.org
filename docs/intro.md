@@ -32,7 +32,8 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
 
 ### Parallel vs Series
 #### Paralel
-- Components are chained together from positive to negative to positive, etc.
+- Negative to Negative and Positive to Positive
 
 #### Series
-- Negative to Negative and Positive to Positive
+- Components are chained together from positive to negative to positive, etc.
+
