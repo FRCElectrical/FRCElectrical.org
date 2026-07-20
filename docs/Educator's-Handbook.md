@@ -44,4 +44,8 @@ Every lead has a different way they choose to plan their wiring. Some do it in t
 ## What to do as a Lead/Mentor
 Being a lead can sometimes be challenging especially in regards to teaching. It may at times be easier to do things all by yourself. But you should always include and inspire the students to initiate.
 * Never do something alone if there are students to teach. Allow them at the VERY least to view what you are doing while you are explaining. THe best case scenario is that they know how to do what you are doing and you delegate the task to them. 
+<<<<<<< HEAD
 * Don’t allow students to slack off. The path of least resistance is common not only for electrons but also is tempting for rookies. Actually give them something to do, even if it is something that is slightly menial, it will have value.
+=======
+* Don’t allow students to slack off. The path of least resistance is common not only for electrons but also is tempting for rookies. Actually give them something to do, even if it is something that is slightly menial, it will have value.
+>>>>>>> af3c83cf9c7f142590a73b0fc451d0df208b0d4b
