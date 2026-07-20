@@ -34,9 +34,9 @@ The elevator carriage should be wired with a [BIGUS chain](https://www.igus.com/
 254 has some tips on how to effectively manage a e-chain [here](https://www.chiefdelphi.com/t/most-common-issues-seen-on-robots-this-year/466119/69?u=jimmyy)
 
 === "3506 YETI Robotics"
-    ![YETI-2024](/assets/Kitty2024PracticeField-removebg-preview.png){ width="50%" }
+    ![YETI-2024](/assets/Mechanisms/Elevator/Kitty2024PracticeField-removebg-preview.png){ width="50%" }
 === "Second Example"
-    ![Second](/assets/47U4BdC-removebg-preview.png){ width="50%" }
+    ![Second](/assets/Mechanisms/Elevator/47U4BdC-removebg-preview.png){ width="50%" }
 
 
 ## Linear Intake
@@ -48,7 +48,7 @@ The elevator carriage should be wired with a [BIGUS chain](https://www.igus.com/
 * When using a wire loom, ensure that the ends meet at the beginning and end of intake. Make sure that the wire loom does not bend upwards or flail around the hopper space (typically means you would need a hard stop).
 
 === "3506 YETI Robotics"
-    ![YETI-2026](/assets/DePb2t1-removebg-preview.png){ width="50%" }
+    ![YETI-2026](/assets/Mechanisms/Linear-Intake/DePb2t1-removebg-preview.png){ width="50%" }
 
 ## Drivetrains
 - All of the electronics placement should be done in CAD. The electrical team should work with CAD to ascertain these locations. They can be fastened within either mounting holes, VHB, or Zipties. Grommet holes and grommets should be put into tubes so that wires can easily pass through without risk of damage.
