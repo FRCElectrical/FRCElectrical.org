@@ -43,3 +43,11 @@ Here are some common terms and tools you may want to reference while learning ab
 - **Housing** - The plastic part that shrouds the contact.
 
 - **TPA** - Terminal Positional assurance: This plastic part goes into Molex SL TPA housings for increased strength on the crimped connection.
+
+- **WCP** - West Coast Products; An engineering and robotics supplier known for parts used in FIRST Robotics competitions
+
+- **Pneumatics** - The use of compressed air to create motion or apply force.
+
+- **Current** - The flow of electric charge through a conductor.
+
+- **Resistance** - The opposition to current flow in an electrical circuit.
