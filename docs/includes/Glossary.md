@@ -15,4 +15,8 @@
 *[Contact]: The metal part that is crimped onto bare wire.
 *[Housing]: The plastic part that shrouds the contact.
 *[TPA]: Terminal Positional assurance: This plastic part goes into Molex SL TPA housings for increased strength on the crimped connection.
+*[Bigus Chain]: A term used to describe the method of transferring power/CAN to rotating mechanisms.
+*[Battery]: The power source for the robot.
+*[Radio]: The device used to communicate with the robot from the driver station.
+*[Motor]: The devices that convert electrical energy into mechanical energy to move the robot.
 

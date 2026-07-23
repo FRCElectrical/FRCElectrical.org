@@ -28,6 +28,14 @@ Here are some common terms and tools you may want to reference while learning ab
 
 - **RSL** — Robot Signal Light; used to indicate the status of the robot.
 
+- **Bigus Chain** - A term used to describe the method of transferring power/CAN to rotating mechanisms.
+
+- **Battery** - The power source for the robot.
+
+- **Radio** - The device used to communicate with the robot from the driver station.
+
+- **Motors** - The devices that convert electrical energy into mechanical energy to move the robot.
+
 - **Crimper** — A tool used to make and complete wire crimps. Anderson crimpers are used for Anderson-style connectors, and similar tools are used for other connector types.
 
 - **Contact** - The metal part that is crimped onto bare wire.
