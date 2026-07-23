@@ -1,0 +1,94 @@
+site_name: FRCElectrical.org
+site_description: Master the FRC Control System. From your first crimp to advanced CAN bus diagnostics, FRCElectrical.org provides clear, step-by-step documentation to help teams build robust, competition-ready robot wiring. Stop troubleshooting on the field and start building for reliability.
+site_author: FRCElectrical Team
+copyright: Copyright &copy; 2026 FRCElectrical.org
+
+nav:
+  - index.md
+  - intro.md
+  - FRC Control System:
+    - FRC-Control-System.md
+    - Battery.md
+    - Pneumatics.md
+  - Making-Connections.md
+  - Mechanism-Wiring.md
+  - Tools.md
+  - Educator's-Handbook.md
+  - Additional-Resources.md
+  - Glossary.md
+  - Contribution.md
+
+theme:
+  name: material
+  language: en
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+extra_css:
+  - stylesheets/theme.css
+
+extra_javascript:
+  - javascripts/header-ctas.js
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 2-6
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  generator: false

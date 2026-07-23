@@ -53,6 +53,13 @@ The elevator carriage should be wired with a [BIGUS chain](https://www.igus.com/
 ## Drivetrains
 - All of the electronics placement should be done in CAD. The electrical team should work with CAD to ascertain these locations. They can be fastened within either mounting holes, VHB, or Zipties. Grommet holes and grommets should be put into tubes so that wires can easily pass through without risk of damage.
 
+=== "254 2017"
+    ![254-2017](/assets/Mechanisms/Drivetrain/254-2017.jpeg){ width="50%" }
+=== "254 Example"
+    ![254-example1](/assets/Mechanisms/Drivetrain/254-example.jpegg){ width="50%" }
+=== "2724 Avalanche: 2026 Brainpan"
+    ![1538-example](/assets/Mechanisms/Drivetrain/1538-example.jpeg){ width="50%" }
+
 ### Brain Pans
 - Brainpans (electronics underneath the bellypan of the robot) can be used to minimize the space that electronics take up. This can be for games where maximizing space on the robot is everything (i.e. Rebuilt™)
 - In usage, ensure that electronics are protected and have easy access
