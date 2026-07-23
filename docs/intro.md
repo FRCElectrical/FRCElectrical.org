@@ -31,8 +31,8 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
         - Strain relief: This is important in any system, whether power or CAN, but it is especially important for CAN wires to reduce noise and vibrations.
 
 ### Parallel vs Series
-#### Paralel
-- Components are chained together from positive to negative to positive, etc.
+#### Paralell
+- Negative to Negative and Positive to Positive
 
 #### Series
-- Negative to Negative and Positive to Positive
+- Components are chained together from positive to negative to positive, etc.

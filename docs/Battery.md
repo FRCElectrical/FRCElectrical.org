@@ -5,7 +5,8 @@ title: Battery
 
 # Batteries
 * FRC Batteries are 12V Sealed Lead Acid (SLA) Batteries- the same kind found in your car. 
-* In FRC, we try to push our batteries to the limit so that our bot gets the most power possible delivered in the most efficient way. By pushing batteries to their limits, we need to be very careful. This means for one following all of the safety guidelines to a tee, as batteries can quickly become the most unsafe thing on the robot. 
+* In FRC, we try to push our batteries to the limit so that our bot gets the most power possible delivered in the most efficient way. By pushing batteries to their limits, we need to be very careful. 
+  * This means for one following all of the safety guidelines to a tee, as batteries can quickly become the most unsafe thing on the robot. 
 
 ## What to Get
 * SLA Batteries come from many vendors. For FRC, we use 3 brands mainly: [Duracell](https://www.batteriesplus.com/product-details/sealed-lead-acid/battery/duracell-ultra/slaa12=18nb?storecode=847&source=google&medium=search&campaign=ecommppc&gad_source=1&gad_campaignid=22449530331&gbraid=0AAAAADgLl5V8SjVLRuUho-ntKgukCfuuM&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8egYnQGYlc_-MwXLNTL3WrZ4Lnflg1MSxvJ7FVTnajWR_du3X8Nq2nhoCPzkQAvD_BwE), [Energizer](https://andymark.com/products/energizer-en18-12v-sla-battery?srsltid=AfmBOooztzZ5x0MIwI7O2a1xBPfYKvO2IUv87yQGBW8DTM_xbGeWM2z1), and [MK](https://andymark.com/products/mk-es17-12-12v-sla-battery-set-of-2?srsltid=AfmBOoqYQC4rZoPfqriHaM3sP9d_8v28mfRGEqA09tlmUgvXY8S4WQ7M). 
