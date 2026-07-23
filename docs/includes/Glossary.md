@@ -8,14 +8,14 @@
 *[Amperes]: (Amps) — The unit used to measure electric current.
 *[Amps]: (Amperes) — The unit used to measure electric current.
 *[Ohms]: (Resistance) — A measure of the opposition to current flow in an electrical circuit.
-*[CAN Chain]: Also known as the CAN bus, this refers to the connection of all devices in the chain via CAN.
+*[CAN-Chain]: Also known as the CAN bus, this refers to the connection of all devices in the chain via CAN.
 *[Multimeter]: A tool used to test electrical characteristics such as voltage, current, and resistance.
 *[RSL]: Robot Signal Light; used to indicate the status of the robot.
 *[Crimper]: A tool used to make and complete wire crimps. Anderson crimpers are used for Anderson-style connectors, and similar tools are used for other connector types.
 *[Contact]: The metal part that is crimped onto bare wire.
 *[Housing]: The plastic part that shrouds the contact.
 *[TPA]: Terminal Positional assurance: This plastic part goes into Molex SL TPA housings for increased strength on the crimped connection.
-*[Bigus Chain]: A term used to describe the method of transferring power/CAN to rotating mechanisms.
+*[Bigus-Chain]: A term used to describe the method of transferring power/CAN to rotating mechanisms.
 *[Battery]: The power source for the robot.
 *[Radio]: The device used to communicate with the robot from the driver station.
 *[Motor]: The devices that convert electrical energy into mechanical energy to move the robot.
