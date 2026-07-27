@@ -18,5 +18,7 @@ jobs:
         uses: vale-cli/vale-action@2.1.2
         with:
           files: 'docs/' 
+          filter_mode: 'nofilter' #adding temp to clean up things rn
+          fail_on_error: true #delete later
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
