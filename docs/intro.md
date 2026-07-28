@@ -37,7 +37,7 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
     ![Power-Wire](/assets/FRC-Control-System/Power-Wire.png){ width="50%" }
 
 ### Parallel vs Series
-#### Paralell
+#### Parallel
 - Negative to Negative and Positive to Positive
 
 #### Series
