@@ -31,6 +31,7 @@ title: Contribution
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Banks - FRC 2974M</span>
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Bhanu - FRC 3506</span>
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Nick - FRC 2851A</span>
+<span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Rowan - FRC 1778A</span>
 
 
 ## How to contribute
