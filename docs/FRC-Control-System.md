@@ -22,6 +22,7 @@ title: FRC Control System
     * With a Star topology, each component has its own individual “CAN bus”. This is not recommended at all in modern FRC, as the introduction of SystemCore allows you to split up CAN buses much further than originally. 
     * Additionally, a star topology presents many issues as it is NOT AT ALL how CAN is meant to be wired.
   * Always place the resistor at the end of each loop. This will be a 120 OHM resistor in a WAGO, or if terminating at a motor with a powerpole adapter board, the Weidmuller connectors may be used.
+    * The REV PDH has a built-in 120 OHM resistor. It can be used by putting the PDH at the end of the CAN loop and switching the "term" switch adjacent to the CAN connectors into the "ON" position.
 
 ![CAN-Wiring](/assets/FRC-Control-System/CAN-Wiring.png)
 
