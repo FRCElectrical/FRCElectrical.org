@@ -104,6 +104,7 @@ favicon = "assets/critical/favicon.png"
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
 #custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -289,7 +290,7 @@ features = [
 # - https://github.com/zensical/ui/tree/master/dist/.icons
 # ----------------------------------------------------------------------------
 [project.theme.icon]
-logo = "lucide/zap"
+logo = "logo/zap"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts
@@ -352,6 +353,7 @@ generic = true
 [project.markdown_extensions.pymdownx.emoji]
 emoji_generator = "zensical.extensions.emoji.to_svg"
 emoji_index = "zensical.extensions.emoji.twemoji"
+options.custom_icons = ["overrides/.icons"]
 [project.markdown_extensions.pymdownx.highlight]
 anchor_linenums = true
 line_spans = "__span"
@@ -376,4 +378,8 @@ custom_checkbox = true
 generator = false
 [project.markdown_extensions.pymdownx.snippets]
 auto_append = ["docs/includes/Glossary.md"]
+
+[project.extra.analytics]
+provider = "google"
+property = "G-XJVLV3KFLP"
 

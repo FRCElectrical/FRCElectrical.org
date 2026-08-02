@@ -76,6 +76,9 @@ This section acts as a guide for the most bang for your buck electrical componen
 
 <hr>
 
+!!! warning
+    Ensure that mated crimps have the same plating material. Not doing so can lead to galvanic corrosion on the crimps and make them wear down faster.
+
 ## Ring Terminals
 !!! note
 
@@ -130,7 +133,7 @@ This section acts as a guide for the most bang for your buck electrical componen
 === "Budget Pick"
     [Jonard Tools CST-1900](https://www.amazon.com/gp/product/B0069627PA?linkId=0b213ec3eef054b7c26d5fc4e0522e33&language=en_US)
 
-    ![Jonard Tools CST-1900](/assets/Tools/Jonard_CST-1900.png)
+    ![Jonard Tools CST-1900](/assets/Tools/Jonard_CST-1900.png){ width="30%" }
 === "Quality Pick"
     [Knipex 16 30 135](https://www.digikey.com/en/products/detail/knipex-tools-lp/16-30-135-SB/10451750)
 
@@ -183,10 +186,10 @@ This section acts as a guide for the most bang for your buck electrical componen
 | West Coast Products | Twisted CAN Wire | [WCP](https://wcproducts.com/products/wire) |
 | | Jacket CAN Wire (Comes in Black, White, Grey) | [WCP](https://wcproducts.com/products/wire) |
 | Cross The Road Electronics | Twisted CAN Wire | [CTRE](https://store.ctr-electronics.com/products/can-bus-cable?variant=43631131656365) |
-| Automation Direct | Continous Flex CAN Wire | [Automation Direct](https://www.automationdirect.com/adc/shopping/catalog/bulk_wire_-a-_cable/low_voltage_control_-a-_signal_cable/cf211-02-01-02-1) |
+| Automation Direct | Continuous Flex CAN Wire | [Automation Direct](https://www.automationdirect.com/adc/shopping/catalog/bulk_wire_-a-_cable/low_voltage_control_-a-_signal_cable/cf211-02-01-02-1) |
 | ProWireUSA | Green / Violet CAN Wire | [ProWireUSA](https://www.prowireusa.com/p-2170-22-awg-x-2-twisted-pair-green-violet-1tpi.html) | 
 | ProWireUSA | Yellow / Green CAN Wire | [ProWireUSA](https://www.prowireusa.com/p-2171-22-awg-x-2-twisted-pair-yellow-green-1tpi.html) | 
 | ProWireUSA | Green / Blue CAN Wire | [ProWireUSA](https://www.prowireusa.com/p-2172-22-awg-x-2-twisted-pair-green-blue-1tpi.html) |
 | ProWireUSA | Green / White CAN Wire | [ProWireUSA](https://www.prowireusa.com/p-2175-22-awg-x-22-twisted-pair-green-white-1tpi.html) | 
 !!! info
-    Continous Flex CAN Wire is useful in mechanisms that move a lot (like a turret, elevator, etc).
+    Continuous Flex CAN Wire is useful in mechanisms that move a lot (like a turret, elevator, etc).

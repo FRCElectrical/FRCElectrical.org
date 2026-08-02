@@ -1,5 +1,5 @@
 ---
-icon: lucide/zap
+icon: frc-elec-zap
 title: FRC Control System
 ---
 
@@ -10,7 +10,7 @@ title: FRC Control System
 * Battery supplies Power to the Robot
 * Power originates with a distribution hub or panel (PDH/PDP/AMPD) 
 * Swerve encoders can be spliced from a single wire.
-  * Soldering is a way that teams have spliced. You’ll learn later why soldering is considered bad for an FRC environment, but for now, just understand it is a worse solution than others. 
+  * Soldering is a way that teams have done this. You’ll learn later why soldering is considered bad for an FRC environment, but for now, just understand it is a worse solution than others. 
   * A 5-port [Wago](https://www.amazon.com/LEPEVNEY-Electrical-Connectors-Retardant-Connector/dp/B0GCJGNR1R/ref=sr_1_4?crid=3S5XVPL2BYERF&dib=eyJ2IjoiMSJ9.fnqoyr8S4BoE6gGHz4zoKNKmHKklMrr4b2weTcpcWDTtgCFb9RqDgBQ5F-tbMFAbu-gasv3x3za6PIa3aqW2dUvf2vMRlnPKnQA48KHO2SYTRiV69c_SfiG7Uk7fiULECS2MLTP-yaaymRvp14ij9Mud3-jhJY4C9Ki-CUEiCTAhYIK6Oak4YNHcirDnV_LF4RVtLIb8UO6KggrtqmTMvYdDPQzeTNgsVz_f8BBDDcQ.zFwnjvta4aXVr957XsFxWN2hmtDJTrVbEffRnxRYKV0&dib_tag=se&keywords=Wago%2B2%2BPort%2B(10)%2B3%2BPort%2B(10)%2B5%2BPort%2B(4)%2BLever-Nut%2BAssortment%2BPack%2BConductor%2BCompact%2BConnector%2BTerminal%2BBlock%2BWire%2BPush%2BCable%2BConnector%2B12-28%2BAWG%2C%2B32A%3A%2BAutomotiveor%2BCompact%2BConnector%2BTerminal%2BBlock%2BWire%2BPush%2BCable%2BConnector%2B12-28%2BAWG%2C%2B32A%3A%2BAutomotive&nsdOptOutParam=true&qid=1780958682&sprefix=wago%2B2%2Bport%2B10%2B3%2Bport%2B10%2B5%2Bport%2B4%2Blever-nut%2Bassortment%2Bpack%2Bconductor%2Bcompact%2Bconnector%2Bterminal%2Bblock%2Bwire%2Bpush%2Bcable%2Bconnector%2B12-28%2Bawg%2C%2B32a%2Bautomotiveor%2Bcompact%2Bconnector%2Bterminal%2Bblock%2Bwire%2Bpush%2Bcable%2Bconnector%2B12-28%2Bawg%2C%2B32a%2Bautomotive%2Caps%2C183&sr=8-4&th=1) is the most common correct way to accomplish a 4-way splice for encoder wires. 
 
 ![5Wago](/assets/FRC-Control-System/5Wago.png)
@@ -26,6 +26,23 @@ title: FRC Control System
 
 ![CAN-Wiring](/assets/FRC-Control-System/CAN-Wiring.png)
 
+### Terminating Resistors
+There are many ways to terminate a CAN bus, but the most common ways are:
+* Using a 120 OHM resistor in a WAGO
+* Using the Weidmuller connectors on a motor with a powerpole adapter board
+* Soldering a 120 OHM resistor
+* Using a 120 OHM resistor in a Power Distribution Panel (PDP) or Power Distribution Hub (PDH)
+* Using the [Swyft](https://swyftrobotics.com/electrical/swyft-canender) CANender
+
+!!! info "Terminating a CAN Bus"
+    When terminating a CAN bus, it is important to ensure that the resistor is placed at the end of the loop. This will prevent any signal reflection and ensure that the CAN bus is properly terminated.
+
+=== "Wago Termination"
+    ![Wago-Termination](/assets/FRC-Control-System/WagoTermination.png){ width="50%" }
+=== "SWYFT CANender"
+    ![SWYFT-CANender](/assets/FRC-Control-System/SWYFT-CANender.png){ width="50%" }
+
+
 ## Specific Electrical Components
 ### Motors
 * Motors are the joints of the robot; they control every moving and rotating component on most modern robots. Thus, wiring them is very important. There are two types of motors, brushed and brushless. 
@@ -35,10 +52,12 @@ title: FRC Control System
     * Brushless: Brushless motors are like brushed motors in many ways. They can have an internal or external rotor (the diagram has an internal rotor). What you may notice about the motor is that it has no brushes. How then does it create opposite polarities? This is through an electronic circuit that detects how much the motor rotates. 
         * This makes for less contact throughout the system and a more precise transmission of power, which is why brushless motors are used throughout the world and especially in FRC. 
 
-![BrushvBrushless](/assets/FRC-Control-System/BrushvBrushless-transparent.png#only-light)
-![BrushvBrushless](/assets/FRC-Control-System/BrushvBrushless.png#only-dark)
+![Brushed-Brushless-Light](/assets/FRC-Control-System/Brushed-Brushless-Light.png#only-light)
+![Brushed-Brushless-Dark](/assets/FRC-Control-System/Brushed-Brushless-Dark.png#only-dark)
 
 Brushed motor on left, brushless motor on right
+
+
 
 #### Common FRC Motors
 ##### WCP's Kraken
@@ -137,7 +156,7 @@ Power distribution boards are how power gets around the robot. They can range fr
 
     * [PDH](https://www.revrobotics.com/rev-11-1850/) is often considered the best quality option for teams that want a robust and modern distribution board.
 
-=== "CTRE's Power Distibution Panel (PDP) 2.0"
+=== "CTRE's Power Distribution Panel (PDP) 2.0"
 
     ![PDP2.0](/assets/FRC-Control-System/PDP-2.png)
 

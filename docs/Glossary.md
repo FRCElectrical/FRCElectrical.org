@@ -6,7 +6,7 @@ title: Glossary
 # Glossary
 Here are some common terms and tools you may want to reference while learning about FRC electrical systems.
 
-- **CAN** — Control Area Network; a communication method used by devices in a chain. It is typically carried on 22-gauge twisted yellow and green wire and must be closed with a 120-ohm resistor.
+- **CAN** — Controller Area Network; a communication method used by devices in a chain. It is typically carried on 22-gauge twisted yellow and green wire and must be closed with a 120-ohm resistor.
 
 - **PDH** — Power Distribution Hub; REV hardware that regulates power to different components, such as motors, using breakers and smaller components with fuses.
 

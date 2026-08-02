@@ -23,12 +23,14 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
 - Current, in this analogy, would be the rate at which water flows through the pipe. It is the flow of electrons going through the wire measured in Amps (A).
 - Resistance can be thought of as blockages in this pipe or as points where it gets narrow. It is the resistance of the flow of electrons measured in Ohms (Ω) that slows the electrons from getting from point A to point B.
 
-### Power vs. CAN
+### Power vs. CAN vs. PWM
 - Power wire is red (for positive terminals) and black (for negative and ground terminals). FRC power wires MUST be color-coded separately, as they can be dangerous when not indicated. Red and black are the most common ways to do so. They can be thought of as the blood vessels that deliver power to every part of the robot. 
 - CAN Wire can be any two colors, but they are most commonly green and yellow. This color scheme can be changed to most anything to differentiate between different CAN buses. CAN is essentially the robot's information system. If the power wires are the blood vessels, CAN is the nervous system. 
     - Differential Buses: CAN is a differential bus. This means that it essentially transfers information by measuring the voltage difference between two wires in a pair (CAN High (Yellow) and CAN Low (Green)). This makes it more resistant to noise, or electromagnetic interference (EMI), which is prevalent in FRC. However, some measures need to be taken for this noise resistance to be most effective:
         - Twist the wire pairs: We do this because it allows any external vibrations and EMI to affect both wires rather than one, keeping the measurements on each wire consistent with each other.
         - Strain relief: This is important in any system, whether power or CAN, but it is especially important for CAN wires to reduce noise and vibrations.
+- PWM: "Pulse-Width Modulation" - simple unidirectional signaling to send any value between 0-100%
+    - Ports for this type of connection can be found on the RoboRIO
 
 
 === "CAN Wiring"
@@ -43,7 +45,5 @@ While electrical isn’t overly complex and the theory is rarely used in FRC ele
 #### Series
 - Components are chained together from positive to negative to positive, etc.
 
-![Parallel-Series-Circuit](/assets/Intro to FRC Electrical/Parallel-Series-Circuit.png#only-dark)
-![Parallel-Series-Circuit](/assets/Intro to FRC Electrical/Parallel-Series-Circuit-transparent.png#only-light)
-
-Parallel Circuit on the left, Series Circuit on the right
+![Parallel-Series-Circuit](/assets/Intro to FRC Electrical/Parallel-Series-Circuit-Light.png#only-light)
+![Parallel-Series-Circuit](/assets/Intro to FRC Electrical/Parallel-Series-Circuit-Dark.png#only-dark)

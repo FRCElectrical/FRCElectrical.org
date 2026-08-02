@@ -1,5 +1,5 @@
 
-*[CAN]: Control Area Network; a communication method used by devices in a chain. It is typically carried on 22-gauge twisted yellow and green wire and must be closed with a 120-ohm resistor.
+*[CAN]: Controller Area Network; a communication method used by devices in a chain. It is typically carried on 22-gauge twisted yellow and green wire and must be closed with a 120-ohm resistor.
 *[PDH]: Power Distribution Hub; REV hardware that regulates power to different components, such as motors, using breakers and smaller components with fuses.
 *[PDP]: Power Distribution Panel; CTRE hardware that regulates power to different components. It offers more slots and uses breakers.
 *[RoboRIO]: The previous main robot controller used in FRC.
