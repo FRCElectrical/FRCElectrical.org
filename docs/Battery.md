@@ -54,7 +54,7 @@ The best option is the Grasshopper nut, which provides an extremely secure conne
 ![Grasshopper Nut](/assets/Battery/grasshopper-nut.png){ width="50%" }
 
 !!! warning
-    The hardware that comes with the battery at purchase is usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware.
+    The hardware that comes with the battery at purchase is usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware. 
 
 #### Recommended Lugs
 | Wire Size | Lug Orientation | FerrulesDirect SKU | Link |
@@ -95,3 +95,27 @@ In the images below, on the left you can see an example of flashing, where the d
 + Connect the lugs to the battery terminals using a Grasshopper nut, or #10-32 screw with washers and a nylock nut. Be careful not to over-tighten the connection, as this can damage the battery terminal and cause battery leakage. <br/> <!-- Adds line break while keeping image inside list number -->
   ![Battery Terminal Leak](/assets/Battery/battery-oxidation.JPEG){ width="50%" }
 + Use heatshrink or electrical tape to cover all exposed metal on the battery terminals, and if possible use the clips mentioned in [Crimping and Assembly](#crimping-and-assembly) to provide strain relief for the battery wires.
+
+## Charging and Maintenance
+In FRC, you are permitted to charge batteries at up to 6 amps. ([R604](https://www.frcmanual.com/2026/robot-construction-rules-(r)#r604-charge-batteries-at-a-safe-rate)). This limit comes from the battery manufacturer datasheets, and is intended to prevent overheating of the batteries during charging.
+
+Any charger for 12V Sealed Lead Acid batteries, as long as it meets the above rule, can be used. There are some chargers, listed below, which are pre-made with FRC connectors and which are the most common in the FRC community. You can purchase them with either SB50 or SB120 connectors. NOCO Genius chargers have a de-sulfation mode, which can help extend battery life.
+
+| Charger | Charge Rate | # of Banks | SKU | Link |
+| ------- | ----------- | ---------- | --- | ---- |
+| RealPRO RS4 | 6A | 4 | RS4 | [AndyMark](https://andymark.com/products/frc-battery-charger?variant=44493438091436) |
+| NOCO Genius 5x3 | 5A | 3 | GEN5X3 | [AndyMark](https://andymark.com/products/frc-battery-charger?variant=44493438058668) |
+| NOCO Genius 5x1 | 5A | 1 | GEN5X1 | [AndyMark](https://andymark.com/products/frc-battery-charger?variant=44493438025900) | 
+
+!!! warning "Battery Storage"
+    Leaving batteries uncharged for long periods of time is not recommended, and can permanently reduce the capacity of the battery. If you are storing batteries for long periods of time, either keep them on a charger in maintenance mode (automatic on most chargers), or charge them every 1-2 months to keep them in good condition.
+
+### Measuring Battery Life
+There are multiple ways with differing levels of accuracy to measure the remaining life of a battery. The quickest, and what should be done before every match is to use a Battery Beak, [sold by CTRE](https://store.ctr-electronics.com/products/battery-beak), to measure the charge state and internal resistance of the battery. For match batteries, under 15 milliohms is ideal, while for practice batteries under 20 milliohms is acceptable. Above 20 milliohms the battery will produce significant amounts of heat, and should be retired from heavy use.
+
+For more in-depth measurements to track battery health, you can purchase a [Computerized Battery Analyzer](https://andymark.com/products/computerized-battery-analyzer?variant=44493455884460) (CBA). Computerized Battery Analyzers work by artificially discharging the battery at a known rate, usually around 10 amps, and can provide measurements of the battery status over time. When using a CBA, it is important to run a couple baseline tests before heavy use of the battery, as the tests are best used to relate to previous tests, rather than to provide an absolute measurement of the battery's health. A cheaper option than a CBA is an automotive Cold Cranking Amps tester, but these test a very different aspect than what FRC uses, and so can be misleading unless only used as a comparison against previous tests on the same battery.
+
+## Best Practices
+- Always identify, by writing on the battery itself, a unique name or number for the battery, as well as when the battery was first used. This will help track battery life and performance. 
+- Never pick up a battery by the wires. It can significantly stress the connections and lead to failure.
+- Rotate between a set of batteries in matches, preventing overuse of a single battery. This will help extend the life of your batteries, and ensure your batteries are charged in time for your next match.
