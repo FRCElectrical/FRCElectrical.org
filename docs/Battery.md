@@ -5,7 +5,9 @@ title: Batteries
 
 ## FRC Batteries
 
-FRC uses 12-Volt 18 Amp-Hour Sealed Lead Acid (SLA) batteries. These batteries are the Absorbed Glass Mat (AGM) type, which contain fiberglass mats with absorbed battery acid, instead of free-flowing liquid. This reduces the consequences of a spill and results in safer batteries. SLA batteries are intended for use in lower current applications, with nominal outputs between 1 to 15 amps and can last many years in these conditions. Under FRC conditions, which average around 50-60 amps continuous through the match, batteries tend to last 1-2 years before becoming unsuitable for matches.
+FRC uses 12-Volt 18 Amp-Hour Sealed Lead Acid (SLA) batteries. These batteries are the Absorbed Glass Mat (AGM) type, which contain fiberglass mats with absorbed battery acid, instead of free-flowing liquid. This reduces the consequences of a spill and results in safer batteries. 
+
+SLA batteries are intended for use in lower current applications, with nominal outputs between 1 to 15 amps and can last many years in these conditions. Under FRC conditions, which average around 50-60 amps continuous through the match, batteries tend to last 1-2 years before becoming unsuitable for matches.
 
 ![Battery Examples](/assets/Battery/batteries-combined.png)
 
@@ -36,14 +38,33 @@ FRC uses 12-Volt 18 Amp-Hour Sealed Lead Acid (SLA) batteries. These batteries a
 </br>
 </br>
 
-### 1: The Battery
-See [R601](https://www.frcmanual.com/2026/robot-construction-rules-(r)#r601-battery-limit-everyone-has-the-same-power) for the limitations on batteries, and a list of batteries meeting that criteria. The most commonly used batteries are the MK Battery ES17-12, the Duracell DURA12-18NB, and the Energizer EN18-12.
+### 1. Anderson SB Connectors
+There are two types of Anderson SB connectors permitted for use as FRC battery connectors; the SB50 and SB120. The SB50 is the most common, and is rated for 6AWG wire. SB50 connectors are used on batteries from FRC spares kits, as well as those that come as part of the rookie kit of parts. The SB120 is rated for 2, 4, or 6AWG wire. 
 
-### 2: Lugs and Connection
-FRC batteries come with terminals sized for #10-32 screws, and can be used with any lug sized for a #10-32 or M5 screw.
+SB connectors are color coded, and do not interconnect between colors. For the SB50, red is the most common color. For the SB120, blue is the most common color. Using a less common color may prevent borrowing or sharing batteries with other teams.
+
+### 2. Battery Wires
+The most common wire gauge for FRC battery wires is 6AWG. 4 AWG, or 2 AWG, are also allowed, and provide slightly improved conductivity in testing. While switching to 4 AWG or 2 AWG provides some benefits, 
+
+### 3. Lugs and Connection
+FRC battery terminals are designed for use with lugs compatible with #10-32 or M5 screw holes. Lugs must be sized appropriately for the wire gauge being used. 
 
 !!! warning
-    The screw, washers, and nut that come with the battery at purchase are generally extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. 
+    The hardware that comes with the battery at purchase are usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware.
+
+#### Recommended Lugs
+| Wire Size | Lug Orientation | FerrulesDirect SKU | Link |
+| --------- | --------------- | ------------------ | ------------------- |
+| 6AWG | Straight | SB610 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sb610) |
+| 6AWG | Right Angle | SBF610 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sbf610) |
+| 4AWG | Straight | SB410 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sb410) |
+| 4AWG | Right Angle | SBF410 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sbf410) |
+| 2AWG | Straight | SB210 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sb210) |
+| 2AWG | Right Angle | SBF210 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sbf210) |
+
+### 4. The Battery
+The most commonly used batteries in FRC are the MK Battery ES17-12, the Duracell DURA12-18NB, and the Energizer EN18-12. These can be purchased from FRC vendors, or from most automotive vendors. If purchasing batteries in person, check the date of manufacture. Batteries that have sat on the shelf for a long period of time may have lost some of their total capacity. To understand what specs make a battery legal, please see [R601](https://www.frcmanual.com/2026/robot-construction-rules-(r)#r601-battery-limit-everyone-has-the-same-power).
+
 ### The Connector, Lug, and Wire
 * The [Lug](https://newwiremarine.com/product/battery-lug/) (generic product link attached) can be from practically anywhere. The only requirements it needs to have is that it is rated for 10-32 hole sizing and whatever wire gauge you choose to use. The terminal should be whatever comes with the connector.
 * The Battery crimp is extremely important. The [iCrimp Crimper](https://www.icrimptools.com/products/iwiss-hx-50b-cross-border-crimping-pliers-wiring-pliers-bare-terminal-pliers-yo-copper-aluminum-cable-crimping-pliers-6-50mm2?variant=42722324611233&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&cmp_id=22605560113&adg_id=&kwd=&device=c&utm_term=&utm_campaign=B2C+-+New+and+Existing+Customers+-+Perfomance+Max+-+Sale&utm_source=adwords&utm_medium=ppc&hsa_acc=7336915727&hsa_cam=22605560113&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22595559102&gbraid=0AAAAAD3ralOpgLD6W26ZBrohaE5P-MYUa&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8evZTr5803jmrVq-7P3k5naQsNKxGMivJepo2QYzHoe-6stGGP_HpphoCMsgQAvD_BwE) is recommended
