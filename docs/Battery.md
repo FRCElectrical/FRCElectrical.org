@@ -1,36 +1,49 @@
 ---
 icon: lucide/battery-charging
-title: Battery
+title: Batteries
 ---
 
-# Batteries
-* FRC Batteries are 12V Sealed Lead Acid (SLA) Batteries- the same kind found in your car. 
-* In FRC, we try to push our batteries to the limit so that our bot gets the most power possible delivered in the most efficient way. By pushing batteries to their limits, we need to be very careful. 
-  * This means for one following all of the safety guidelines to a tee, as batteries can quickly become the most unsafe thing on the robot. 
+## FRC Batteries
 
-## What to Get
-* SLA Batteries come from many vendors. For FRC, we use 3 brands mainly: [Duracell](https://www.batteriesplus.com/product-details/sealed-lead-acid/battery/duracell-ultra/slaa12=18nb?storecode=847&source=google&medium=search&campaign=ecommppc&gad_source=1&gad_campaignid=22449530331&gbraid=0AAAAADgLl5V8SjVLRuUho-ntKgukCfuuM&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8egYnQGYlc_-MwXLNTL3WrZ4Lnflg1MSxvJ7FVTnajWR_du3X8Nq2nhoCPzkQAvD_BwE), [Energizer](https://andymark.com/products/energizer-en18-12v-sla-battery?srsltid=AfmBOooztzZ5x0MIwI7O2a1xBPfYKvO2IUv87yQGBW8DTM_xbGeWM2z1), and [MK](https://andymark.com/products/mk-es17-12-12v-sla-battery-set-of-2?srsltid=AfmBOoqYQC4rZoPfqriHaM3sP9d_8v28mfRGEqA09tlmUgvXY8S4WQ7M). 
-=== "Energizer"
-    ![Energizer](/assets/Battery/Energizer.png)
-=== "MK"
-    ![MK](/assets/Battery/MK.png)
-=== "Duracell"
-    ![Duracell](/assets/Battery/Duracell.png)
+FRC uses 12-Volt 18 Amp-Hour Sealed Lead Acid (SLA) batteries. These batteries are the Absorbed Glass Mat (AGM) type, which contain fiberglass mats with absorbed battery acid, instead of free-flowing liquid. This reduces the consequences of a spill and results in safer batteries. SLA batteries are intended for use in lower current applications, with nominal outputs between 1 to 15 amps and can last many years in these conditions. Under FRC conditions, which average around 50-60 amps continuous through the match, batteries tend to last 1-2 years before becoming unsuitable for matches.
 
+![Battery Examples](/assets/Battery/batteries-combined.png)
 
-## Wires/Connectors for Batteries
-* There are two main options for battery wires and battery connectors. We use 4 and 6 AWG wire for batteries and for connectors we use [SB50s](https://powerwerx.com/anderson-sb-connectors-sb50-50amp?srsltid=AfmBOooEGI9cCmnGoLNoHptg3VvKkSyAbujIvzm3Ka8k7bPd4rj6Me6m) and [SB120s](https://powerwerx.com/anderson-sb-connectors-sb120-120amp). 
-* You will usually pair up 6 AWG with SB50s and 4 AWG with SB120s, but people have gotten away with fitting 4 AWG wires into SB50s. This is not recommended, because that is not what the SB50 is rated for and makes things needlessly difficult. 
-* 4 AWG with SB120 connectors is recommended, as this provides slightly more efficient current draw when compared to 6 AWG and SB50s.
-    * Teams also use 2AWG with SB120 for a slight performance increase
+!!! warning
+    While AGM batteries are safer than free-flowing liquid batteries, battery acid is still an extremely strong acid, as well as being highly toxic. If a battery is dropped, cracked, or you see any white powdery residue on it, dispose of the battery safely following your team's battery disposal procedures.
 
-## Battery Assembly
-* The two ways that battery lugs can be connected are by using 2 Nordlock Washers or by using a [Grasshopper Nut](https://www.thethriftybot.com/products/grasshopper-nut) with 2 Nordlock Washers. Both methods will be used in tandem with a 10-32 bolt and nut, with heatshrink placed over top.
-  * Grasshopper Nut: It provides a mechanical interlock between the battery terminals. It allows for an incredibly secure connection. To create this from scratch, create the sheet metal part through a machining service or in house, then insert the PEM nuts and bend the part using a 3d printed jig with this [CAD](https://cad.onshape.com/documents/fd2d9412535523e7783f88ba/w/d2d16c539f14e2ce19b152b7/e/58dd4fa889f825cfdecfe609?configuration=List_cS05PEshcmecMn%3DDefault&renderMode=0&uiState=64fb8ab3650a1276b653f858) provided for by TTB.
-  * Nordlock Washers: Basically a serrated washer. When tightened, the serrations embed into the surfaces, which creates a wedge effect, so as to maintain preload and prevent loosening.
-  * Warning: NEVER use the built in stuff. Sure, it works but it creates a loose poor strength connection. In fact NASA has proven lock washers useless for preventing loosening during vibrations as found on page 9 of their [study](https://ntrs.nasa.gov/api/citations/19900009424/downloads/19900009424.pdf) (page 13 of the actual PDF).
-* The Lug will be connected to the wire the same as the connector terminal is done so. Read the next section for information.
+## Battery Wiring
 
+![Battery Wiring Diagram](/assets/Battery/battery-wired.png){ width="50%", align=left }
+
+1. The battery itself.
+2. The lug and connectors attaching wires to the battery.
+3. Thick gauge battery wires.
+4. An Anderson SB-series connector.
+
+<!-- This is really stupid, but I can't figure out how to end the align=left from the picture above, and this bypasses that. -->
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+### 1: The Battery
+See [R601](https://www.frcmanual.com/2026/robot-construction-rules-(r)#r601-battery-limit-everyone-has-the-same-power) for the limitations on batteries, and a list of batteries meeting that criteria. The most commonly used batteries are the MK Battery ES17-12, the Duracell DURA12-18NB, and the Energizer EN18-12.
+
+### 2: Lugs and Connection
+FRC batteries come with terminals sized for #10-32 screws, and can be used with any lug sized for a #10-32 or M5 screw.
+
+!!! warning
+    The screw, washers, and nut that come with the battery at purchase are generally extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. 
 ### The Connector, Lug, and Wire
 * The [Lug](https://newwiremarine.com/product/battery-lug/) (generic product link attached) can be from practically anywhere. The only requirements it needs to have is that it is rated for 10-32 hole sizing and whatever wire gauge you choose to use. The terminal should be whatever comes with the connector.
 * The Battery crimp is extremely important. The [iCrimp Crimper](https://www.icrimptools.com/products/iwiss-hx-50b-cross-border-crimping-pliers-wiring-pliers-bare-terminal-pliers-yo-copper-aluminum-cable-crimping-pliers-6-50mm2?variant=42722324611233&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&cmp_id=22605560113&adg_id=&kwd=&device=c&utm_term=&utm_campaign=B2C+-+New+and+Existing+Customers+-+Perfomance+Max+-+Sale&utm_source=adwords&utm_medium=ppc&hsa_acc=7336915727&hsa_cam=22605560113&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22595559102&gbraid=0AAAAAD3ralOpgLD6W26ZBrohaE5P-MYUa&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8evZTr5803jmrVq-7P3k5naQsNKxGMivJepo2QYzHoe-6stGGP_HpphoCMsgQAvD_BwE) is recommended
