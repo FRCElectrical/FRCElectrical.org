@@ -53,7 +53,7 @@ The best option is the Grasshopper nut, which provides an extremely secure conne
 
 ![Grasshopper Nut](/assets/Battery/grasshopper-nut.png){ width="50%" }
 
-!!! warning
+!!! warning "Included Hardware"
     The hardware that comes with the battery at purchase is usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware. 
 
 #### Recommended Lugs
