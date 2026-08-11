@@ -23,6 +23,9 @@ SLA batteries are intended for use in lower current applications, with nominal o
 + The lug and connectors attaching wires to the battery.
 + The battery itself.
 
+<div style="clear: both;"></div>
+
+
 ### 1. Anderson SB Connectors
 There are two types of Anderson SB connectors permitted for use as FRC battery connectors; the SB50 and SB120. The SB50 is the most common, and is rated for 6AWG wire. By swaging the connector it is possible to use with 4AWG, but switching to an SB120 is recommended in that case. SB50 connectors are used on batteries from FRC spares kits, as well as those that come as part of the rookie kit of parts. SB120 connectors are rated for 6AWG, 4AWG, and 2AWG wire depending on the size of contact purchased.
 
