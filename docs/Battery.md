@@ -11,50 +11,54 @@ SLA batteries are intended for use in lower current applications, with nominal o
 
 ![Battery Examples](/assets/Battery/batteries-combined.png)
 
-!!! warning
+!!! danger "Battery Safety"
     While AGM batteries are safer than free-flowing liquid batteries, battery acid is still an extremely strong acid, as well as being highly toxic. If a battery is dropped, cracked, or you see any white powdery residue on it, dispose of the battery safely following your team's battery disposal procedures.
 
-## Battery Wiring
+## Battery Components
 
 ![Battery Wiring Diagram](/assets/Battery/battery-wired.png){ width="50%", align=left }
 
-1. The battery itself.
-2. The lug and connectors attaching wires to the battery.
-3. Thick gauge battery wires.
-4. An Anderson SB-series connector.
-
-<!-- This is really stupid, but I can't figure out how to end the align=left from the picture above, and this bypasses that. -->
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+1. An Anderson SB-series connector.
++ Thick gauge battery wires.
++ The lug and connectors attaching wires to the battery.
++ The battery itself.
 
 ### 1. Anderson SB Connectors
-There are two types of Anderson SB connectors permitted for use as FRC battery connectors; the SB50 and SB120. The SB50 is the most common, and is rated for 6AWG wire. SB50 connectors are used on batteries from FRC spares kits, as well as those that come as part of the rookie kit of parts. The SB120 is rated for 2, 4, or 6AWG wire. 
+There are two types of Anderson SB connectors permitted for use as FRC battery connectors; the SB50 and SB120. The SB50 is the most common, and is rated for 6AWG wire. By swaging the connector it is possible to use with 4AWG, but switching to an SB120 is recommended in that case. SB50 connectors are used on batteries from FRC spares kits, as well as those that come as part of the rookie kit of parts. SB120 connectors are rated for 6AWG, 4AWG, and 2AWG wire depending on the size of contact purchased.
 
 SB connectors are color coded, and do not interconnect between colors. For the SB50, red is the most common color. For the SB120, blue is the most common color. Using a less common color may prevent borrowing or sharing batteries with other teams.
 
-### 2. Battery Wires
-The most common wire gauge for FRC battery wires is 6AWG. 4 AWG, or 2 AWG, are also allowed, and provide slightly improved conductivity in testing. While switching to 4 AWG or 2 AWG provides some benefits, 
+#### Recommended SB Connectors
+| Wire Size | Type | Powerwerx SKU | Link |
+| --------- | ---- | ------------- | ---- |
+| 6AWG | Red SB50 | SB50-06-RED | [Powerwerx](https://powerwerx.com/anderson-sb-connectors-sb50-50amp) |
+| 6AWG | Blue SB120 | SB120-06-BLU | [Powerwerx](https://powerwerx.com/anderson-sb-connectors-sb120-120amp) |
+| 4AWG | Blue SB120 | SB120-04-BLU | [Powerwerx](https://powerwerx.com/anderson-sb-connectors-sb120-120amp) |
+| 2AWG | Blue SB120 | SB120-02-BLU | [Powerwerx](https://powerwerx.com/anderson-sb-connectors-sb120-120amp) |
 
-### 3. Lugs and Connection
-FRC battery terminals are designed for use with lugs compatible with #10-32 or M5 screw holes. Lugs must be sized appropriately for the wire gauge being used. 
+### 2. Battery Wires
+The most common wire gauge for FRC battery wires is 6AWG. 4AWG and 2AWG are also permitted, and provide slight benefits to conductivity, increasing the amount of usable power for the robot. Using EPDM welding cable is recommended, as it's extremely flexible and cut resistant, [Powerwerx](https://powerwerx.com/welding-cable-epdm) sells this type of cable in 6AWG, 4AWG, and 2AWG gauges.
+
+If you don't want to cut and crimp the wires yourself, AndyMark sells pre-made battery cables in [6AWG](https://andymark.com/products/6-gauge-12-inch-battery-cable?variant=44497405870252) and [4AWG](https://andymark.com/products/4-gauge-battery-cable), as well as configurable [Robot Power Cable Kits](https://andymark.com/products/robot-power-cable-kit-custom-lengths-up-to-36-in) that cover the entire system.
+
+When designing your robot, you want to minimize the battery wire length to the power distribution board as much as possible. This reduces resistance, and allows for more effective power.
 
 !!! warning
-    The hardware that comes with the battery at purchase are usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware.
+    While Copper Clad Aluminum (CCA) wire is allowed, it is not recommended. For the same wire diameter CCA wire has a higher resistance and will waste significantly more power as heat, leading to worse performance and hotter wires.
+
+### 3. Lugs and Connection
+FRC battery terminals are designed for use with lugs compatible with #10-32 or M5 screw holes. Lugs must be sized appropriately for the wire gauge being used. Depending on your battery orientation, you may want to use a straight or right angle lug. Once crimped, the lug should be attached to the battery terminal using locking hardware. 
+
+The best option is the Grasshopper nut, which provides an extremely secure connection that resists loosening under vibration. Grasshopper nuts can be purchased from [The Thrifty Bot](https://www.thethriftybot.com/products/grasshopper-nut), or made yourself using this [forming tool](https://cad.onshape.com/documents/fd2d9412535523e7783f88ba/w/d2d16c539f14e2ce19b152b7/e/58dd4fa889f825cfdecfe609). If you cannot use a Grasshopper nut with Nord-Lock washers, a #10-32 screw with washers and a nylock nut is the next best option. 
+
+![Grasshopper Nut](/assets/Battery/grasshopper-nut.png){ width="50%" }
+
+!!! warning
+    The hardware that comes with the battery at purchase is usually extremely low quality, and may loosen during matches, leading to a faulty connection and loss of power. It's is highly recommended to replace them with better hardware.
 
 #### Recommended Lugs
 | Wire Size | Lug Orientation | FerrulesDirect SKU | Link |
-| --------- | --------------- | ------------------ | ------------------- |
+| --------- | --------------- | ------------------ | ---- |
 | 6AWG | Straight | SB610 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sb610) |
 | 6AWG | Right Angle | SBF610 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sbf610) |
 | 4AWG | Straight | SB410 | [FerrulesDirect](https://www.ferrulesdirect.com/products/sb410) |
@@ -65,71 +69,29 @@ FRC battery terminals are designed for use with lugs compatible with #10-32 or M
 ### 4. The Battery
 The most commonly used batteries in FRC are the MK Battery ES17-12, the Duracell DURA12-18NB, and the Energizer EN18-12. These can be purchased from FRC vendors, or from most automotive vendors. If purchasing batteries in person, check the date of manufacture. Batteries that have sat on the shelf for a long period of time may have lost some of their total capacity. To understand what specs make a battery legal, please see [R601](https://www.frcmanual.com/2026/robot-construction-rules-(r)#r601-battery-limit-everyone-has-the-same-power).
 
-### The Connector, Lug, and Wire
-* The [Lug](https://newwiremarine.com/product/battery-lug/) (generic product link attached) can be from practically anywhere. The only requirements it needs to have is that it is rated for 10-32 hole sizing and whatever wire gauge you choose to use. The terminal should be whatever comes with the connector.
-* The Battery crimp is extremely important. The [iCrimp Crimper](https://www.icrimptools.com/products/iwiss-hx-50b-cross-border-crimping-pliers-wiring-pliers-bare-terminal-pliers-yo-copper-aluminum-cable-crimping-pliers-6-50mm2?variant=42722324611233&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&cmp_id=22605560113&adg_id=&kwd=&device=c&utm_term=&utm_campaign=B2C+-+New+and+Existing+Customers+-+Perfomance+Max+-+Sale&utm_source=adwords&utm_medium=ppc&hsa_acc=7336915727&hsa_cam=22605560113&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22595559102&gbraid=0AAAAAD3ralOpgLD6W26ZBrohaE5P-MYUa&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8evZTr5803jmrVq-7P3k5naQsNKxGMivJepo2QYzHoe-6stGGP_HpphoCMsgQAvD_BwE) is recommended
-* Step 1: Strip your wire to the length of the terminal or the lug. For exact measurements, check the documentation or compare the length to the terminal/lug with your eyeball. 
-  * The wires you will be using are high gauge and regular strippers won't work on them. Therefore, you should use a pair of flush cutters and be careful to not nick any strands (if this is done, cut off the end and try again). 
-  * Fingers may also be used to peel back the insulation with risk to your skin.
-* Step 2 (FOR LUGS ONLY): Place the heatshrink on for the lugs. This should be done now rather than later as lugs and terminals may be bulky.
-* Step 3: Crimp the connector. Usually your crimper will have a hexagonal die and will sometimes have the millimeter number on it. 
-  * For 4 AWG use the 25 setting, as 25mm^2 is equal to 4 AWG. 
-  * For 6 AWG use the 16 setting with the same logic. 2 crimps for each terminal/lug is recommended for optimal grip onto the wire. 
-  * This crimp takes a lot of force and may be hard for some so assistance can always be asked for.
-* Step 4 (FOR LUGS): For lugs, perform the steps described in [Battery Assembly](contributions/link), and then, being careful to not allow any metal (including the metal already on the battery) to be exposed, move forward and heat up the heat shrink.
-* Step 4 (FOR CONNECTORS): once both wires are done, place them into the connector, with red as positive and black as negative. The hook should go over the metal bit at the end and a click should be heard. To undo, use a flathead screwdriver to pry the hook over the metal bit.
+## Crimping and Assembly
+Both the lugs and SB-series connectors need to be correctly crimped with enough force to solidify the stranded wire within the lug. To do this, there are a few crimper options that provide good crimps. The cross section of a correctly crimped wire should look like the left image below, with the strands compressed into each other. The right image shows a poorly crimped wire, which may lead to connection failure and increased resistance.
 
-## Battery Process Flowchart
-The following flowchart summarizes the typical battery workflow from selection through assembly, charging, and checks.
+A good way to check your crimps is the "tug test", where post crimp you pull on the connection to see if it moves on the wire. If any movement occurs, it was not crimped properly.
+![Crimped Wires](/assets/Battery/crimps.png)
 
-``` mermaid
-flowchart TD
-    A[Start with a battery] --> B{Battery selected?}
-    B -->|No| C[Choose a compliant SLA battery]
-    C --> D[Inspect terminals and case]
-    B -->|Yes| D
-    D --> E[Prepare wire and connector]
-    E --> F[Crimp lug or terminal]
-    F --> G[Secure with washers and hardware]
-    G --> H[Apply heat shrink or insulation]
-    H --> I[Connect positive and negative correctly]
-    I --> J[Test connection and polarity]
-    J --> K[Install on the robot or store safely]
-    K --> L{Needs charging?}
-    L -->|Yes| M[Charge with an approved charger]
-    M --> N[Check voltage and internal resistance]
-    L -->|No| N
-    N --> O[Use battery or rotate it into the battery cycle]
-    O --> P[End]
-```
+| Crimper | SKU | Link |
+| ------- | --- | ---- |
+| 1-8AWG Benchtop Crimper | IWS-0801DTS | [iCrimp](https://www.icrimptools.com/collections/battery-lug-crimping-tool/products/iwiss-iws-0801dt-hex-crimp-bench-mount-battery-cable-crimper-for-8awg-to-1awg-electrical-non-insulated-cable-lugs) |
+| 1/0-8AWG Handhend Crimper | HX-50BI | [iCrimp](https://www.icrimptools.com/products/iwiss-battery-cable-lug-crimping-tool-for-heavy-duty-copper-wire-lugs-battery-cable-ends-from-awg-8-1-0-ground-lug-cimper-tool) |
+| 4-70mm² Hydraulic Crimper | YQK-70 | [iCrimp](https://www.icrimptools.com/products/yqk?_pos=1&_sid=119e521b0&_ss=r) |
 
-## Maintaining Your Battery
-What you need to do to make sure your battery remains competitive!
+Clips which can be used to ziptie the battery wires to the structure of the battery are heavily recommended, as they reduce the amount of stress on the lug connections, as wellk as on the SB50. You can purchase them from DigiKey, as [Panduit SKU MCMS12-P-C](https://www.digikey.com/en/products/detail/panduit-corp/MCMS12-P-C/1306790).
+![Battery Wire Clips](/assets/Battery/battery-clips.png){ width="50%" }
 
-### Charging
-* The [AndyMark NOCO Chargers](https://andymark.com/products/frc-battery-charger?srsltid=AfmBOoqwFmhqzrKGyEGLmltHpnLuQzWZ-Z9BuJ_KRqhnXo1Yxh9rbe2H) are heavily recommended. These come with FRC connectors and are very good chargers.
-
-### Checks
-* [CTRE’s Battery Beak](https://store.ctr-electronics.com/products/battery-beak?srsltid=AfmBOorYtOxTG61A61ysMHFyl9BZpIvloOV9aF1eHups2mpyPCVNX0zS) is a tool for quick battery checks during competition: it’ll let you know whether your battery is good or not with a simple plug in to your battery. If you are using a SB120 get the [CTRE Adapter](https://store.ctr-electronics.com/products/sb120-to-sb50-adapter-cable?pr_prod_strat=e5_desc&pr_rec_id=a7835906b&pr_rec_pid=8329799860397&pr_ref_pid=7863765467309&pr_seq=uniform) or for a cheaper cost, create the adapter yourself with an SB50 set, SB120 set and 6 AWG wires.
-  * For matches:
-    * Ideally under 15 milliohms internal resistance.
-    * Ideally at least 120% at the top left. 130%+ is incredibly ideal.
-  * For testing:
-    * Under 20 milliohms. If your battery is over 20 milliohms, do not use it at all on your robot, as it will demonstrate poor performance.
-
-### Overall Health Tests
-* For basic health tests, the battery beak with internal resistance can be used. However, for capacity tests and overall health tests a dedicated tool should be used.
-* Cheaper Option: Use a car battery checker. This will provide for a great overall health test. Purchase an [analyzer](https://www.amazon.com/dp/B07Z67MMGC) and crimp either an SB120 or 50 to it.
-* If you want to do an actual capacity test and have the money, get a [CBA](https://andymark.com/products/computerized-battery-analyzer?srsltid=AfmBOooGLWRoXcV3QuroNVp4GET2FpbFHrLxtE4HO8NeLZByQJkEZoeH). 
-  * It graphically displays and charts the voltage versus time under a constant current load. Graphs can be displayed, saved and printed, and axis parameters can be changed at any time. 
-  * Multiple test graphs of the same battery, or multiple batteries, may be compared or overlaid.
-
-### Best Practices
-!!! tip "Best Battery Practices"
-  * Always write down when the battery is first used: You can use the AndyMark stickers that come with the kit or just use a sharpie and some tape. Label month and year.
-  * Have a set circulation of batteries at competition. Regulate based on the performance of each battery.
-
-
-
-
-
+### Battery Assembly Steps
+1. Cut both wires to the desired length. Remember that the shorter your battery wires are, the better performance you will get.
++ Strip insulation off the ends to the spec for that connector. For lugs, this is the length of the barrel, with a minimum amount of uninsulated wire sticking out. For SB-series connectors, this is **9/16" (14mm)** for SB50 connectors, and **15/16" (24mm)** for SB120 connectors. While stripping the cable, be careful not to cut any strands. This can reduce current carrying performance.
++ Crimp the lugs and SB-series connectors using the appropriate crimper and die for your wire gauge, as mentioned above. In the case of using a crimper with metric mm² dies, you can use an online tool to [convert AWG to mm²](https://www.rapidtables.com/calc/wire/awg-to-mm.html). <br/> <!-- Adds line break while keeping text inside list number -->
+In the images below, on the left you can see an example of flashing, where the die has squeezed some of the metal out of the crimp. In small amounts, like in the image, this is okay, but larger flashing can lead to poor connection quality. <br/> <!-- Adds line break while keeping image inside list number -->
+  ![Mild Flashing](/assets/Battery/mild-flashing.jpg){ width="50%" }
++ Use heat shrink tubing to cover the barrel of the lug. Do not cover the flat mating surfaces, and do not apply heat shrink to the SB-series connector.
++ Insert the pins into the SB-series connector housing, and ensure they are fully seated. The bent tip of the contact should be pushed in front of the spring in the connector housing, retaining the contact. 
++ Connect the lugs to the battery terminals using a Grasshopper nut, or #10-32 screw with washers and a nylock nut. Be careful not to over-tighten the connection, as this can damage the battery terminal and cause battery leakage. <br/> <!-- Adds line break while keeping image inside list number -->
+  ![Battery Terminal Leak](/assets/Battery/battery-oxidation.JPEG){ width="50%" }
++ Use heatshrink or electrical tape to cover all exposed metal on the battery terminals, and if possible use the clips mentioned in [Crimping and Assembly](#crimping-and-assembly) to provide strain relief for the battery wires.
