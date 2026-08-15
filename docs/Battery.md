@@ -12,7 +12,7 @@ SLA batteries are intended for use in lower current applications, with nominal o
 ![Battery Examples](/assets/Battery/batteries-combined.png)
 
 !!! danger "Battery Safety"
-    While AGM batteries are safer than free-flowing liquid batteries, battery acid is still an extremely strong acid, as well as being highly toxic. If a battery is dropped, cracked, or you see any white powdery residue on it, dispose of the battery safely following your team's battery disposal procedures.
+    While AGM batteries are safer than free-flowing liquid batteries, battery acid is still an extremely strong acid, as well as being highly toxic. If a battery is dropped, cracked, or you see any white powdery residue on it, dispose of the battery safely following your team's battery disposal procedures. See the [Battery Disposal](#battery-disposal) section for more information.
 
 ## Battery Components
 
@@ -118,6 +118,8 @@ There are multiple ways with differing levels of accuracy to measure the remaini
 For more in-depth measurements to track battery health, you can purchase a [Computerized Battery Analyzer](https://andymark.com/products/computerized-battery-analyzer?variant=44493455884460) (CBA). Computerized Battery Analyzers work by artificially discharging the battery at a known rate, usually around 10 amps, and can provide measurements of the battery status over time. When using a CBA, it is important to run a couple baseline tests before heavy use of the battery, as the tests are best used to relate to previous tests, rather than to provide an absolute measurement of the battery's health. A cheaper option than a CBA is an automotive Cold Cranking Amps tester, but these test a very different aspect than what FRC uses, and so can be misleading unless only used as a comparison against previous tests on the same battery.
 
 ## Battery Disposal
+Per the *FIRST* FRC Safety Manual, all teams are required to have a box of sodium bicarbonate (baking soda), acid-resistant rubber gloves, and a suitable plastic container to carry the defective battery in. If a battery should spill, use these items to clean up the battery. If you get any on your hands or eyes, or feel a burning sensation, flush the contacted skin with water for at least 15 minutes and seek medical attention.
+
 Once a battery is no longer usable, either due to damage or age, you need to dispose of it properly. Lead Acid batteries are considered hazardous waste in most jurisdictions, and must be disposed of properly. If the battery is undamaged, most auto-parts stores, like AutoZone, will accept them for recycling and give you a small gift card in return. 
 
 If the battery is cracked, leaking, or otherwise damaged, search for your jurisdiction's hazardous waste disposal program, and follow their instructions for delivering it to a hazardous waste site. 
