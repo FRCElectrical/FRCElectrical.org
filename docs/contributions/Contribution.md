@@ -37,6 +37,7 @@ title: Contribution
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Ryan - FRC 3647M</span>
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Tim - FRC 78M</span>
 <span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Yoyo - FRC 100</span>
+<span style="display: inline-block; background-color: #121212; color: #e8e8e8; padding: 2px 10px; margin: 2px 4px 6px 0; border-radius: 9999px; font-size: 0.7rem; border: 1px solid #2d2d2d; white-space: nowrap;">Tim - FRC 8248M</span>
 
 
 ## How to contribute
