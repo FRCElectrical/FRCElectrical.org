@@ -13,7 +13,7 @@ hide:
 
 The comprehensive learning guide and technical reference for FRC Electrical.
 
-[Start Learning](intro.md){ .md-button .md-button--primary hero-cta }
+[Start Learning](intro.md){ .md-button .md-button--primary .hero-cta }
 
 </div>
 
@@ -60,47 +60,47 @@ The comprehensive learning guide and technical reference for FRC Electrical.
 
 <div class="grid cards" markdown>
 
--   :lucide-play:{ style="color: #ffffff;" } **Getting Started**
+-   :lucide-play: **Getting Started**
     <br>
     Everything you need to know to get started with electrical.
     [→](intro.md){ .stretched-link }
 
--   :lucide-notebook-pen:{ style="color: #ffffff;" } **Educator's Handbook**
+-   :lucide-notebook-pen: **Educator's Handbook**
     <br>
     How you can teach FRC Electrical!
     [→](Educator's-Handbook.md){ .stretched-link }
 
--   :lucide-book-open:{ style="color: #ffffff;" } **Intro to the FRC Control System**
+-   :lucide-book-open: **Intro to the FRC Control System**
     <br>
     Goes over the basics of the FRC Control System.
     [→](FRC-Control-System.md){ .stretched-link }
 
--   :lucide-toolbox:{ style="color: #ffffff;" } **Making Connections**
+-   :lucide-toolbox: **Making Connections**
     <br>
     Teaches you to crimp Molex, Anderson, Batteries, Ferrules, Butt Crimps, and more!
     [→](Making-Connections.md){ .stretched-link }
 
--   :lucide-package-x:{ style="color: #ffffff;" } **Mechanism Wiring**
+-   :lucide-package-x: **Mechanism Wiring**
     <br>
     Goes over case-specific wiring techniques!
     [→](Mechanism-Wiring.md){ .stretched-link }
 
--   :lucide-hammer:{ style="color: #ffffff;" } **Tools and Crimps**
+-   :lucide-hammer: **Tools and Crimps**
     <br>
     Explains the best tools, and what crimps to buy for FRC!
     [→](Tools/){ .stretched-link }
 
--   :lucide-book:{ style="color: #ffffff;" } **Additional Resources**
+-   :lucide-book: **Additional Resources**
     <br>
     Additional resources for easier access
     [→](Additional-Resources.md){ .stretched-link }
 
--  :lucide-square-chart-gantt:{ style="color: #ffffff;" } **Glossary**
+-  :lucide-square-chart-gantt: **Glossary**
     <br>
     Recaps specific Electrical Terminology!
     [→](Glossary.md){ .stretched-link }
 
--   :lucide-wrench:{ style="color: #ffffff;" } **Contribution**
+-   :lucide-wrench: **Contribution**
     <br>
     Help contribute! Since FRCElectrical.org is in an early stage, we need you.
     [→](contributions/Contribution.md){ .stretched-link }
