@@ -27,6 +27,7 @@ title: Contribution
 
 
 ## Other Contributors
+<span class="contributor-card">Adriana - FRC 6201AM</span>
 <span class="contributor-card">Alex - FRC 6238A / CSA</span>
 <span class="contributor-card">Banks - FRC 2974M</span>
 <span class="contributor-card">Bhanu - FRC 3506</span>

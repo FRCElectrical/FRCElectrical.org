@@ -7,6 +7,12 @@
   color: #ffffff !important;
 }
 
+/* adjusts the background color for light mode */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f2f4f8 !important;
+
+}
+
 /* Hero section styling */
 .hero-container {
   display: flex;
@@ -56,13 +62,20 @@
   font-size: 1.05rem;
   padding: 0.75rem 1.15rem;
   border-radius: 8px;
+  background-color: #4272f5;
 }
-
-
 
 /* Make blue highlights more apparent in cards and links */
 .grid.cards li {
   border: 1px solid rgba(66,114,245,0.06);
+}
+
+/* adjusts the cards for light mode */
+[data-md-color-scheme="default"] .grid.cards li {
+   border: 1px solid #c1c3c8 !important;
+}
+[data-md-color-scheme="default"] .grid.cards li svg {
+  color: #000000 !important;
 }
 
 .grid.cards li a.stretched-link {
