@@ -79,7 +79,7 @@ A good way to check your crimps is the "tug test", where post crimp you pull on 
 
 | Crimper | SKU | Link |
 | ------- | --- | ---- |
-| 1-8AWG Benchtop Crimper | IWS-0801DTS | [iCrimp](https://www.icrimptools.com/collections/battery-lug-crimping-tool/products/iwiss-iws-0801dt-hex-crimp-bench-mount-battery-cable-crimper-for-8awg-to-1awg-electrical-non-insulated-cable-lugs) |
+| 1-8AWG Benchtop Crimper | IWS-0801DTS | [iCrimp](https://www.icrimptools.com/products/iwiss-iws-1040dt-1-0awg-to-4-0awg-bench-battery-cable-lug-tubular-ring-crimper-for-automotive-truck-aftermarket?variant=42722368585889) |
 | 1/0-8AWG Handhend Crimper | HX-50BI | [iCrimp](https://www.icrimptools.com/products/iwiss-battery-cable-lug-crimping-tool-for-heavy-duty-copper-wire-lugs-battery-cable-ends-from-awg-8-1-0-ground-lug-cimper-tool) |
 | 4-70mm² Hydraulic Crimper | YQK-70 | [iCrimp](https://www.icrimptools.com/products/yqk?_pos=1&_sid=119e521b0&_ss=r) |
 
