@@ -38,6 +38,7 @@ title: Contribution
 <span class="contributor-card">Ryan - FRC 3647M</span>
 <span class="contributor-card">Tim - FRC 78M</span>
 <span class="contributor-card">Yoyo - FRC 100</span>
+<span class="contributor-card">Tim - FRC 8248M</span>
 
 
 ## How to contribute
